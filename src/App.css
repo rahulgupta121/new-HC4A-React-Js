@@ -1,38 +1,120 @@
-.App {
+/*  nav bar CSS  */
+.navbar{
+  background: url('./logos/top-header.png');
+  width: 100%;
+}
+
+.bg-light{
+  background: #ffffff;
+}
+.top-navbar{
+  color: #ffffff;
+  width: 100%;
+  
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+/* .social-icon img{
+ background: #ffffff;
+
+}
+.social-icon li{
+  background: #ffffff;
+  height: 23px;
+  width: 23px;
+} */
+
+.navbar-bg{
+  background-color: #ffffff;
+}
+
+.background-banner{
+  width: 100%;
+}
+
+.nav-link{
+  font-weight: bold;
+}
+
+/* .navbar-1{
+  padding-left: ;
+} */
+.social-icon {
+  background-color: #ffffff;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.social:last-child{
+  margin-right: 0px;
+}
+
+.social{
+  margin-bottom: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.became-volunteer{
+  font-size: 18px;
+}
+.social li a img{
+  height: 18px;
+ 
+}
+.social  li a img{
+  text-align: center;
+}
+.menu-bar{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ------------------------------ menu bar -------------------- */
+
+/* div .relative {
+    position: relative;
+} */
+
+div .absolute {
+  position: absolute;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-danger {
+  color: #fff;
+  background-color: #971723;
+  border-color: #971723;
+  margin-left: 8px;
+}
+div .HC4A-logo{
+  top: -40px;
+}
+div .service-learn{
+  position: absolute;
+  top: 85px; 
+  background: rgba(47, 47, 47, 0.6);
+  box-shadow: 0px 0px 15px 5px rgba(255, 211, 42, 0.4);
+  min-width: 764px;
+  z-index: 1;
+  padding: 0px 55px;
+}
+.service-learn p {
+  font-weight: normal;
+  font-size: 20px;
+  padding: 34px 0px;
+}
+.service-heading{
+  padding-top: 55px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .register-btn{
+  padding-bottom: 55px;
+}  */
+.nav-item{
+  font-size: 12px;
 }
