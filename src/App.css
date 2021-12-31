@@ -209,3 +209,11 @@ h2.service-heading {
 .about-content-sub-2-3 {
   padding: 39px 14px 6px 36px;
 }
+
+/*   ##  support student ##   */
+.Support-stud-banner-div{
+  background-image: url("./logos/support-stud.png");
+}
+/* .supportBanner1{
+
+} */

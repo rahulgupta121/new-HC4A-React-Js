@@ -4,6 +4,7 @@ import Topbar from './Components/Topbar';
 import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
 import AboutUs from './Components/AboutUs';
+import SupportStudent from './Components/SupportStudent';
 function App() {
   return (
    <>
@@ -12,6 +13,7 @@ function App() {
    <Navbar />
    <Banner />
     <AboutUs />
+    <SupportStudent />
    </>
   );
 }
