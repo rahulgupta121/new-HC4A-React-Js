@@ -1,18 +1,21 @@
-/*  nav bar CSS  */
-.navbar{
+/*  top nav bar CSS  */
+.top-navbar{
   background: url('./logos/top-header.png');
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  color: #ffffff;
   width: 100%;
+  background-size: cover;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .bg-light{
   background: #ffffff;
 }
-.top-navbar{
-  color: #ffffff;
-  width: 100%;
-  
-  padding-top: 16px;
-  padding-bottom: 16px;
+
+.rounded-circle{
+  background: #971723;
 }
 /* .social-icon img{
  background: #ffffff;
@@ -40,7 +43,6 @@
   padding-left: ;
 } */
 .social-icon {
-  background-color: #ffffff;
   height: 45px;
   width: 45px;
   text-align: center;
@@ -50,7 +52,9 @@
   margin-right: 5px;
   margin-left: 5px;
 }
-
+.fa-icon{
+  color: #ffffff;
+}
 .social:last-child{
   margin-right: 0px;
 }
@@ -74,8 +78,18 @@
 .menu-bar{
   text-align: center;
 }
+/* ------------------- nav bar ------------------------------*/
+
+div .HC4A-logo {
+  top: -25px;
+  left: 10px;
+}
+.navbar-donate-btn{
+  background: #971723;
+}
 
 /* ------------------------------ menu bar -------------------- */
+
 
 /* div .relative {
     position: relative;
@@ -85,16 +99,7 @@ div .absolute {
   position: absolute;
 }
 
-.btn-danger {
-  color: #fff;
-  background-color: #971723;
-  border-color: #971723;
-  margin-left: 8px;
-}
-div .HC4A-logo{
-  top: -40px;
-}
-div .service-learn{
+/* div .service-learn{
   position: absolute;
   top: 85px; 
   background: rgba(47, 47, 47, 0.6);
@@ -102,7 +107,7 @@ div .service-learn{
   min-width: 764px;
   z-index: 1;
   padding: 0px 55px;
-}
+} */
 .service-learn p {
   font-weight: normal;
   font-size: 20px;
@@ -116,5 +121,52 @@ div .service-learn{
   padding-bottom: 55px;
 }  */
 .nav-item{
-  font-size: 12px;
+  font-size: 14px;
+}
+
+
+/*  ----------------------- POMASONE ------------------ */ 
+.pamasone{
+  background-color: #ffffff;
+  justify-content: center;
+  text-align: center;
+}
+.button-1{
+   background-color: #253F7F;
+   height: 70px;
+   border: none;
+   padding: 15px 26px;
+   min-width: 80px;
+   font-weight: bold;
+}
+.button-2{
+   background-color: #971723;
+   height: 70px;
+   border: none;
+   padding: 15px 26px;
+   min-width: 80px;
+   font-weight: bold;
+}
+.button-3{
+   background-color: #718093;
+   height: 70px;
+   border: none;
+   padding: 15px 26px;
+   min-width: 80px;
+   font-weight: bold;
+}
+.pamasone p{
+   font-size: 20px;
+   padding: 45px 0px 15px 0px;
+   font-weight: bold;
+}
+.pamasone-button{
+   margin: 0px 0px 45px 0px;
+
+}
+button{
+   padding: 10px;
+}
+.btn{
+   margin: 16px;
 }

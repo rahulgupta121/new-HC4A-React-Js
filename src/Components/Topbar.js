@@ -2,21 +2,21 @@ import React from "react";
 
 const Topbar = () => {
   return (
-    <div>
+    <>
       <div className="top-navbar navbar d-flex flex-wrap">
-        <div className="container ">
+        <div className="container">
           <div className="row justify-content-between w-100">
             {/* <!------- d-flex justify-content-around --> */}
 
             <div className="col-12 col-lg-4 col-md-4 col-sm-12 d-flex">
-              {/* <a className="navbar-brand became-volunteer text-white" href="/" ></a> */}
-               Became a volunteer
+              <a className="navbar-brand became-volunteer text-white" href="/" > Became a volunteer</a>
+              
             </div>
 
             <div className="telephone col-12 col-lg-4 col-md-4 col-sm-12 ">
               <div className="d-flex align-items-center">
                 <div className="pr-2 d-flex align-items-center">
-                <i class="fas fa-phone-alt"></i>
+                <i class="fas fa-phone"></i>
                   <h6> +125 445-485-5242</h6>
                 </div>
               </div>
@@ -27,22 +27,22 @@ const Topbar = () => {
                 <ul className="social list-unstyled d-flex text-center ">
                   <li className="social-icon rounded-circle ">
                     <a href="/">
-                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-envelope fa-icon"></i>
                     </a>
                   </li>
                   <li className="social-icon rounded-circle">
                     <a  href="/">
-                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook fa-icon"></i>
                     </a>
                   </li>
                   <li className="social-icon rounded-circle">
                     <a href="/">
-                    <i class="fas fa-envelope"></i>
+                    <i class="fab fa-twitter fa-icon"></i>
                     </a>
                   </li>
                   <li className="social-icon rounded-circle">
                     <a href="/">
-                    <i class="fas fa-youtube"></i>
+                    <i class="fab fa-youtube fa-icon"></i>
                     </a>
                   </li>
                 </ul>
@@ -51,7 +51,7 @@ const Topbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

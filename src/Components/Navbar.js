@@ -1,9 +1,9 @@
 import React from 'react'
-
+import hc4alogo from "../logos/HC4A-logo.png"
 const Navbar = () => {
     return (
         <>
-           <div className="container d-flex justify-content-center position-relative">
+        <div className="container d-flex justify-content-center position-relative">
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
       {/* <!-- <a className="navbar-brand" href="/">Navbar scroll</a> --> */}
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/navbarScroll"
@@ -58,7 +58,7 @@ const Navbar = () => {
             </ul>
           </li>
           <div className="HC4A-logo position-relative">
-            <img className="HC4A-logo" src="./logos/HC4A-Logo-2019 1.png" alt=''/>
+            <img className="HC4A-logo" src={hc4alogo} alt=''/>
           </div>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="/" id="navbarScrollingDropdown" role="button"
@@ -91,8 +91,8 @@ const Navbar = () => {
           <li className="nav-item active">
             <a className="contact-us nav-link" href="/">CONTACTS US <span className="sr-only">(current)</span></a>
           </li>
-          <div className="donate">
-            <button type="button" className="btn btn-danger"> DONATE </button>
+          <div className="navbar-donate-div">
+            <button type="button" className="btn btn-danger navbar-donate-btn"> DONATE </button>
           </div>
         </ul>
       </div>
