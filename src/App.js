@@ -3,6 +3,7 @@ import './App.css';
 import Topbar from './Components/Topbar';
 import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
+import AboutUs from './Components/AboutUs';
 function App() {
   return (
    <>
@@ -10,7 +11,7 @@ function App() {
    <Topbar />
    <Navbar />
    <Banner />
-
+    <AboutUs />
    </>
   );
 }

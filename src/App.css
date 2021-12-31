@@ -1,4 +1,4 @@
-/*  top nav bar CSS  */
+    /*  top nav bar CSS  */
 .top-navbar{
   background: url('./logos/top-header.png');
   /* width: 100%; */
@@ -88,85 +88,72 @@ div .HC4A-logo {
   background: #971723;
 }
 
-/* ------------------------------ menu bar -------------------- */
-
-
-/* div .relative {
-    position: relative;
-} */
+/* ------------------------------ banner section -------------------- */
 
 div .absolute {
   position: absolute;
 }
 
-/* div .service-learn{
+div .service-learn {
+  text-align: center;
   position: absolute;
-  top: 85px; 
-  background: rgba(47, 47, 47, 0.6);
-  box-shadow: 0px 0px 15px 5px rgba(255, 211, 42, 0.4);
+  width: 136px;
+  top: 115px;
+  /* bottom: 120px; */
+  /* left: 0px; */
+  right: 331px;
   min-width: 764px;
   z-index: 1;
-  padding: 0px 55px;
-} */
-.service-learn p {
-  font-weight: normal;
-  font-size: 20px;
-  padding: 34px 0px;
+  /* padding: 0px 55px; */
 }
-.service-heading{
-  padding-top: 55px;
+.banner-donate-btn{
+  background: #F2A922;
+  border: none;
+  border-radius: 20px;
+}
+.banner-register-btn{
+  background: #971723;
+  border: none;
+  border-radius: 20px;
+}
+h2.service-heading {
+  font-size: 42px;
 }
 
-/* .register-btn{
-  padding-bottom: 55px;
-}  */
 .nav-item{
   font-size: 14px;
 }
+.register-btn-div{
+  margin-top: 59px;
+}
 
-
-/*  ----------------------- POMASONE ------------------ */ 
-.pamasone{
-  background-color: #ffffff;
-  justify-content: center;
-  text-align: center;
+.banner-sec-3{
+  position: relative;
+  bottom: 71px;
 }
-.button-1{
-   background-color: #253F7F;
-   height: 70px;
-   border: none;
-   padding: 15px 26px;
-   min-width: 80px;
-   font-weight: bold;
+.banner-sub-1-sec{
+  background: #253F7F;
+  padding: 28px;
 }
-.button-2{
-   background-color: #971723;
-   height: 70px;
-   border: none;
-   padding: 15px 26px;
-   min-width: 80px;
-   font-weight: bold;
+.banner-sub-2-sec{
+  background: #971723;
+  padding: 28px;
 }
-.button-3{
-   background-color: #718093;
-   height: 70px;
-   border: none;
-   padding: 15px 26px;
-   min-width: 80px;
-   font-weight: bold;
+.banner-sub-3-sec{
+  background: #1A252E;
+  padding: 28px;
 }
-.pamasone p{
-   font-size: 20px;
-   padding: 45px 0px 15px 0px;
-   font-weight: bold;
+.banner-sub-1-sec-para, .banner-sub-2-sec-para, .banner-sub-3-sec-para{
+  color: #ffffff;
+  font-size: 16px;
 }
-.pamasone-button{
-   margin: 0px 0px 45px 0px;
-
+.banner-sub-1-sec-heading, .banner-sub-2-sec-heading ,.banner-sub-3-sec-heading{
+  color: #ffffff;
+  font-size: 23px;
 }
-button{
-   padding: 10px;
+.banner-sub-1-sec-btn, .banner-sub-2-sec-btn, .banner-sub-3-sec-btn{
+  border-radius: #ffffff;
 }
-.btn{
-   margin: 16px;
+.banner-sub-1-sec-btn, .banner-sub-2-sec-btn, .banner-sub-3-sec-btn{
+  background: none;
 }
