@@ -157,3 +157,55 @@ h2.service-heading {
 .banner-sub-1-sec-btn, .banner-sub-2-sec-btn, .banner-sub-3-sec-btn{
   background: none;
 }
+
+/* ######  about us section   ######*/
+/* .aboutus-banner-img{
+  width: 100%;
+} */
+.aboutus-banner-div{
+  background-image: url("./logos/crpn-bg-help-the-poors\ 1.png");
+  width: 100%;
+}
+.about-us-btn{
+  background: #971723;
+  border-radius: 18px;
+  padding: 10px 18px;
+}
+.about-sec-heading-2{
+  color: #971723;
+  font-size: 20px;
+}
+.about-sec-head-sub-2{
+  color: #253F7F;
+  font-size: 18px;
+}
+.about-sec-head-sub-1, .about-sec-head-sub-2-1, .about-sec-head-sub-2-2 {
+  color: #F2A922;
+  font-size: 24px;
+  font-weight: 600;
+}
+.about-sec-para-sub-1{
+  border-right: 1px solid #971723;
+}
+.about-sec-para-sub-2{
+  border-top: 1px solid #971723;
+  padding: 52px 2px 91px 124px;
+}
+.about-content-sub-1 {
+  padding: 16px;
+  margin: 52px 12px 12px 124px;
+}
+.about-sec-head-sub-2-2{
+  /* border-top: 1px solid #971723; */
+  padding: 10px 0px 0px 0px;
+}
+.about-sec-col-sub-2{
+  margin-top: 12px;
+}
+.about-content-sub-2-1 {
+  border-bottom: 1px solid #971723;
+  padding: 174px 12px 13px 29px;
+}
+.about-content-sub-2-3 {
+  padding: 39px 14px 6px 36px;
+}
