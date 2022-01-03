@@ -317,11 +317,27 @@ h2.service-heading {
   width: inherit;
 }
 
-/*  ##  NEW RTICAL SECTION  ##  */
+/*  ##  NEW ARTICAL SECTION  ##  */
 .artical-heading{
   color: #253F7F;
   font-size: 26px;
 }
 .artical-para{
   font-weight: 500;
+}
+
+/* #### became-volunteer #### */
+.became-volunteer-div{
+  background: url("./logos/became\ volunteer.png"); 
+  background-position: center;
+}
+.volunteer-button {
+  background-color: #487EB0;
+  border: none;
+  font-size: 18px;
+  padding: 8px 35px;
+  border-radius: 18px;
+}
+.became-volunteer-para{
+  font-size: 20px;
 }
