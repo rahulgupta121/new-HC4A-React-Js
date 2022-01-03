@@ -6,6 +6,7 @@ import Banner from './Components/Banner';
 import AboutUs from './Components/AboutUs';
 import SupportStudent from './Components/SupportStudent';
 import Donation from './Components/Donation';
+import Artical from './Components/Artical';
 function App() {
   return (
    <>
@@ -16,6 +17,7 @@ function App() {
     <AboutUs />
     <SupportStudent />
     <Donation />
+    <Artical />
    </>
   );
 }

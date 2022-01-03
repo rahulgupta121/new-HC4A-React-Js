@@ -236,10 +236,16 @@ h2.service-heading {
 .supportBanner2-div-2{
   background: #253F7F;
 }
+.content-top-para{
+  font-size: 20px;
+  margin-bottom: auto;
+}
 
-/* content-part-1 */
+/* donation content-part-1 */
 .donation-section{
   background: #F1F1F1;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .donationBanner-div{
   background-image: url("./logos/donation-Img.png");
@@ -252,9 +258,8 @@ h2.service-heading {
 .donation-font-weight{
   font-weight: 700;
 }
-.content-part-3{
-  background: #FFD32A;
-}
+
+/* content 2 part-1*/
 .dollar-sign{
   background: #253F7F;
   font-size: 28px;
@@ -274,4 +279,49 @@ h2.service-heading {
 }
 .content-part-2{
   padding: 33px;
+}
+.content-part-2-heading{
+  font-size: 24px;
+  color: #253F7F;
+  font-weight: 500;
+}
+.content-part-2-para{
+  font-size: 20px;
+  margin-top: 0px;
+}
+.dollar-section{
+  justify-content: right;
+}
+/* ### content 3 ### */
+.ul-content-3{
+  text-align: center;
+}
+.content-part-3{
+  background: #FFD32A;
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px 14px;
+  font-weight: 600;
+}
+.content-part-3:first-child{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/*   section 4 for button   */
+.donation-button{
+  background: #253F7F;
+}
+.donation-button {
+  font-size: 22px;
+  width: inherit;
+}
+
+/*  ##  NEW RTICAL SECTION  ##  */
+.artical-heading{
+  color: #253F7F;
+  font-size: 26px;
+}
+.artical-para{
+  font-weight: 500;
 }
