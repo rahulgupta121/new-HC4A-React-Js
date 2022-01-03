@@ -3,7 +3,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <>
-      <div className="aboutus-banner-div">
+      <div className="aboutus-banner-div mb-5">
         <div className="container">
           {/* <img className="aboutus-banner-img" alt="" src={bgbanner} /> */}
           <div className="row">

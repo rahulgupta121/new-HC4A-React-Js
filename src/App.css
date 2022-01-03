@@ -236,3 +236,42 @@ h2.service-heading {
 .supportBanner2-div-2{
   background: #253F7F;
 }
+
+/* content-part-1 */
+.donation-section{
+  background: #F1F1F1;
+}
+.donationBanner-div{
+  background-image: url("./logos/donation-Img.png");
+  padding: 63px;
+}
+.progress-bar{
+  width: 20%;
+  background: #FFA801;
+}
+.donation-font-weight{
+  font-weight: 700;
+}
+.content-part-3{
+  background: #FFD32A;
+}
+.dollar-sign{
+  background: #253F7F;
+  font-size: 28px;
+  text-align: center;
+}
+.dollar-sign-100-div{
+  margin-left: -31px;
+}
+.dollar-sign-100{
+  font-size: 28px;
+  text-align: center;
+  background: #C4C4C4;
+}
+.content-part-3-para{
+  font-size: 21px;
+  font-weight: 600;
+}
+.content-part-2{
+  padding: 33px;
+}
