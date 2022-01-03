@@ -342,10 +342,13 @@ h2.service-heading {
   font-size: 20px;
 }
 
+
+
 /*   ### award section ###    */
 
 .award-main-card{
   border-color: 2px solid #487EB0;
+
 }
 
 .president-award{
@@ -357,6 +360,7 @@ h2.service-heading {
   padding: 18px;
   max-width: 207px;
   min-width: 122px;
+  border-radius: 15px;
 }
 /* .award-logo-div{
   margin: 19px;
@@ -400,4 +404,17 @@ h2.service-heading {
   font-size: 26px;
   margin-top: 47px;
   font-weight: 600;
+}
+
+/* ### Up coming Event ### */
+.upcoming-event-background{
+  background: url('./logos/upcoming-event-bg.png');
+  background-position: center;
+}
+.up-coming-event-btn{
+  background: #971723;
+  border: none;
+}
+.upcoming-event-content-2{
+  background: #F1F1F1;
 }

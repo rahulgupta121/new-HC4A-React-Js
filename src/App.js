@@ -8,6 +8,7 @@ import SupportStudent from './Components/SupportStudent';
 import Donation from './Components/Donation';
 import Volunteer from './Components/Volunteer';
 import AwardSection from './Components/AwardSection';
+import UpComingEvent from './Components/UpComingEvent';
 //import Artical from './Components/Artical';
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     {/* <Artical /> */}
     <Volunteer />
     <AwardSection />
+    <UpComingEvent />
    </>
   );
 }
