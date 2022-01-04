@@ -57,17 +57,19 @@ const Artical = () => {
                   <a href="/">learn more</a>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12">
-                  <img className="row2Img3" src={row2Img3 } alt=""/>
-                  <p>Houston Community College Scholarship Award</p>
+                   <div className="row2Img3">
+                  <p className="row2para3">Houston Community College Scholarship Award</p>
+                   </div>
                 </div>
               </div>
             </div>
+
             <div className="col-sm-12 col-md-4 col-lg-4">
               {/* row 3 */}
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                     <img className="row3Img1" src={row3Img1 } alt=""/>
-                    <p>Results Achieved</p>
+                    <p className="row3para1">Results Achieved</p>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-12">
                     <img className="row3Img2" src={row3Img2 } alt=""/>
