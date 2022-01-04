@@ -475,3 +475,45 @@ h2.service-heading {
 .footer-div{
   background: #F1F1F1;
 }
+.footer-hr{
+  border-color: #971723; 
+}
+hr {
+  border: 0;
+  border-top: 4px solid rgba(0,0,0,.1);
+  width: 100px;
+  display: inline-block;
+}
+.footer-content-3-2{
+  border-top: 2px solid #971723;
+  border-bottom: 2px solid #971723;
+}
+.footer-content-1, .footer-content-2 ,.footer-content-3{
+  margin-left: inherit;
+}
+.recent-head{
+  margin-left: 0px;
+}
+.quick-list{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 19px 0px;
+}
+.quick-list:first-child{
+  margin: 0px 0px;
+}
+.hc4a-list{
+  font-size: 18px;
+  margin: 13px 0px;
+}
+.address-hc4a, .telephone-hc4a, .mail-hc4a {
+  font-weight: 600;
+  opacity: 0.6;
+  padding-left: 16px;
+}
+.footer-end{
+  background: #343a40;
+}
+.footer-end-content{
+  font-size: 20px;
+}
