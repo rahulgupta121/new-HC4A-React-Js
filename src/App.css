@@ -467,3 +467,11 @@ h2.service-heading {
 .clock-text, .location-text{
   opacity: 0.6;
 }
+/*#### Footer section ####*/
+.footer-background{
+  background: url('./logos/prm-world-map\ 2.png');
+  background-position: center;
+}
+.footer-div{
+  background: #F1F1F1;
+}

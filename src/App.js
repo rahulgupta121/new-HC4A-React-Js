@@ -9,6 +9,7 @@ import Donation from './Components/Donation';
 import Volunteer from './Components/Volunteer';
 import AwardSection from './Components/AwardSection';
 import UpComingEvent from './Components/UpComingEvent';
+import FooterSection from './Components/FooterSection';
 //import Artical from './Components/Artical';
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <Volunteer />
     <AwardSection />
     <UpComingEvent />
+    <FooterSection />
    </>
   );
 }
