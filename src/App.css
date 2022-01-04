@@ -325,7 +325,53 @@ h2.service-heading {
 .artical-para{
   font-weight: 500;
 }
+.row1Img1{
+  height: 250px;
+  width: 210px;
+}
+.row1Img2{
+  height: 250px;
+  width: 250px;
+}
+.row2Img1{
+  height: 250px;
+  width: 210px;
+  background: url('./logos/new-artical-2-1.png');
+  background-position: center;
+  border-radius: 19px;
+}
+.row2Img1:first-child{
+  background-color: #343a40;
+}
+.row2Img2{
+  height: 250px;
+  width: 223px; 
+    padding-top: 29px;
+}
+.row2Img3{
+  height: 250px;
+  width: 250px;
+}
+.row3Img1{
+  height: 250px;
+  width: 250px;
+}
+.row3Img2{
+  height: 250px;
+  width: 250px;
+}
+.ongoingContent {
+  position: relative;
+  bottom: 44px;
+  left: 20px;
+}
 
+.row2Sec1-div{
+  position: relative;
+  /* bottom: 214px; */
+  font-size: 15px;
+  /* color: #f1f1f1; */
+}
 /* #### became-volunteer #### */
 .became-volunteer-div{
   background: url("./logos/became\ volunteer.png"); 

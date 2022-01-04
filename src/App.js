@@ -10,7 +10,7 @@ import Volunteer from './Components/Volunteer';
 import AwardSection from './Components/AwardSection';
 import UpComingEvent from './Components/UpComingEvent';
 import FooterSection from './Components/FooterSection';
-//import Artical from './Components/Artical';
+import Artical from './Components/Artical';
 function App() {
   return (
    <>
@@ -21,7 +21,7 @@ function App() {
     <AboutUs />
     <SupportStudent />
     <Donation />
-    {/* <Artical /> */}
+    <Artical />
     <Volunteer />
     <AwardSection />
     <UpComingEvent />
