@@ -32,8 +32,10 @@ const Artical = () => {
                   <a href="/">learn more</a>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12">
-                    <img className="row1Img2 position-relative" src={row1Img2} alt=""/>
+                  <div className="row1Img2" >
                     <h6 className="ongoingContent text-white">Ongoing Donations</h6>
+                  </div>
+                     
                 </div>
               </div>
             </div>

@@ -339,8 +339,20 @@ h2.service-heading {
   width: 283px;
 }
 .row1Img2 {
-  height: 250px;
-  width: 250px;
+  background: url('./logos/new-artical-1-2.png');
+  height: 361px;
+    width: 291px;
+    border-radius: 12px;
+}
+.row1Img2:before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  top: 0;
+  background: rgba(40, 40, 40, 0.4);
+  width: 92%;
+  height: 100%;
+  border-radius: 19px;
 }
 .row2Img1 {
   height: 250px;
@@ -349,8 +361,16 @@ h2.service-heading {
   background-position: center;
   border-radius: 19px;
 }
-.row2Img1:first-child {
-  background-color: #343a40;
+ 
+.row2Img1:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(37, 63, 127, 0.53);
+  width: 100%;
+  height: 100%;
+  border-radius: 19px;
 }
 .row2Img2 {
   height: 250px;
@@ -365,6 +385,16 @@ h2.service-heading {
   background-position: center;
   border-radius: 44px;
 }
+.row2Img3:before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  top: 17px;
+  background: rgba(37, 63, 127, 0.53);
+  width: 92%;
+  height: 82%;
+  border-radius: 19px;
+}
 .row2para3 {
   position: relative;
   text-align: center;
@@ -372,6 +402,7 @@ h2.service-heading {
   bottom: 0px;
   top: 106px;
   font-weight: 700;
+  color: white;
 }
 .row3Img1 {
   height: 360px;
@@ -383,7 +414,6 @@ h2.service-heading {
 }
 .ongoingContent {
   position: relative;
-  bottom: 44px;
   left: 20px;
 }
 .row3para1 {
@@ -396,9 +426,9 @@ h2.service-heading {
 }
 .row2Sec1-div {
   position: relative;
-  /* bottom: 214px; */
+  top: 65px;
   font-size: 15px;
-  /* color: #f1f1f1; */
+  color: #f1f1f1;
 }
 /* #### became-volunteer #### */
 .became-volunteer-div {
