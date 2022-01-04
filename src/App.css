@@ -417,4 +417,53 @@ h2.service-heading {
 }
 .upcoming-event-content-2{
   background: #F1F1F1;
+  border-radius: 12px;
+  align-items: center;
+}
+.nov27{
+  color: #971723;
+  font-size: 25px;
+}
+.event-date{
+  border-right: 2px solid #EDEDED;
+    align-items: center;
+}
+.event-content-para-2{
+  font-size: 18px; 
+  padding-top: 4px; 
+}
+.li-content-para-2{
+  font-size: 18px;
+  padding: 0px 14px 0px 0px;
+}
+.li-content-para-3{
+  font-size: 16px;
+}
+.event-view-more{
+  font-size: 12px;
+  background: #253F7F;
+  border: none;
+}
+.ul-li-content-para-2{
+  display: inline-flex;
+}
+.ul-li-content-para-3{
+  display: inline-flex;
+  text-align: center;
+}
+.calender-logo, .location-logo{
+  font-size: 35px;
+  background: #C4C4C4;
+  height: 50px;
+  text-align: center;
+  width: 50px;
+  padding-top: 6px;
+  display: inline-block;
+  opacity: 0.6;
+} 
+.event-view-more{
+  font-size: 16px;
+}
+.clock-text, .location-text{
+  opacity: 0.6;
 }
