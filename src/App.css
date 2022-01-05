@@ -345,9 +345,12 @@ h2.service-heading {
   height: 250px;
   max-width: 100%;
 }
-.row1Content{
-  padding: 3px;
+.row1Content,
+.row2Content,
+.row3Content {
+  padding: 20px;
 }
+
 .row1Img2 {
   background: url("./logos/new-artical-1-2.png");
   height: 361px;
@@ -388,7 +391,7 @@ h2.service-heading {
 }
 .row2Img2 {
   height: 250px;
-  max-width: 100%; 
+  max-width: 100%;
 }
 .row2Img3 {
   background: url("./logos/new-artical-2-3.png");
@@ -437,7 +440,7 @@ h2.service-heading {
 }
 .row3Img2 {
   height: 250px;
-  max-width: 100%; 
+  max-width: 100%;
 }
 .ongoingContent {
   position: relative;
