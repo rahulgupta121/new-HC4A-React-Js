@@ -1,9 +1,9 @@
 import React from "react";
 import row1Img1 from "../logos/new-artical-1-1.png";
-import row1Img2 from '../logos/new-artical-1-2.png'
+//import row1Img2 from '../logos/new-artical-1-2.png'
 //import row2Img1 from '../logos/new-artical-2-1.png'
 import row2Img2 from '../logos/new-artical-2-2.png'
-import row2Img3 from '../logos/new-artical-2-3.png'
+//import row2Img3 from '../logos/new-artical-2-3.png'
 import row3Img1 from '../logos/new-artical-3-1.png'
 import row3Img2 from '../logos/new-artical-3-2.png'
 const Artical = () => {

@@ -1,0 +1,31 @@
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-rows: masonry;
+  }
+   .item1{
+    block-size: 2em;
+    background: #1a252e;
+   }  
+   .item2{
+    block-size: 3em;
+    background: #737577;
+  } 
+  .item3{
+    block-size: 1.6em;
+    background: #2f92e4;
+  }
+  .item4{
+    block-size: 4em;
+  }
+  .item5{
+    block-size: 2.2em;
+  }
+  .item6{
+    block-size: 3em;
+  }
+  .item7{
+    block-size: 4.5em;
+  }

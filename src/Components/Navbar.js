@@ -11,7 +11,7 @@ const Navbar = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarScroll">
-        <ul className="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style={{maxHeight: "100px", alignItems: "center" }}>
+        <ul className="navbar-nav navbar-ul-list mr-auto my-2 my-lg-0 navbar-nav-scroll" style={{alignItems: "center" }}>
           <li className="home nav-item active">
             <a className="nav-link" href="/">HOME <span className="sr-only">(current)</span></a>
           </li>
