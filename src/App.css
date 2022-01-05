@@ -86,7 +86,7 @@ div .HC4A-logo {
 .navbar-donate-btn {
   background: #971723;
 }
-.navbar-ul-list{
+.navbar-ul-list {
   max-height: 100px;
 }
 /* ------------------------------ banner section -------------------- */
@@ -337,18 +337,26 @@ h2.service-heading {
 .artical-para {
   font-weight: 500;
 }
+.for-box-shadow {
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.25);
+}
 .row1Img1 {
   height: 250px;
   max-width: 100%;
 }
+.row1Content{
+  padding: 3px;
+}
 .row1Img2 {
-  background: url('./logos/new-artical-1-2.png');
+  background: url("./logos/new-artical-1-2.png");
   height: 361px;
   max-width: 100%;
-    border-radius: 12px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.25);
 }
 .row1Img2:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 13px;
   top: 0;
@@ -364,10 +372,12 @@ h2.service-heading {
   background-position: center;
   border-radius: 19px;
   max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px 1px rgb(0 0 0 / 25%);
 }
- 
+
 .row2Img1:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -378,8 +388,7 @@ h2.service-heading {
 }
 .row2Img2 {
   height: 250px;
-  max-width: 100%;
-  padding-top: 29px;
+  max-width: 100%; 
 }
 .row2Img3 {
   background: url("./logos/new-artical-2-3.png");
@@ -390,7 +399,7 @@ h2.service-heading {
   border-radius: 44px;
 }
 .row2Img3:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 13px;
   top: 17px;
@@ -409,7 +418,7 @@ h2.service-heading {
   color: white;
 }
 .row3Img1 {
-  background: url('./logos/new-artical-3-1.png');
+  background: url("./logos/new-artical-3-1.png");
   height: 360px;
   max-width: 100%;
   background-position: center;
@@ -417,7 +426,7 @@ h2.service-heading {
   border-radius: 14px;
 }
 .row3Img1:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 14px;
   top: 0;
@@ -428,8 +437,7 @@ h2.service-heading {
 }
 .row3Img2 {
   height: 250px;
-  max-width: 100%;
-  margin-top: 34px;
+  max-width: 100%; 
 }
 .ongoingContent {
   position: relative;
@@ -437,7 +445,7 @@ h2.service-heading {
   top: 306px;
 }
 .row3para1 {
-  position: relative; 
+  position: relative;
   top: 306px;
   font-size: 18px;
   font-weight: 500;
@@ -515,9 +523,8 @@ h2.service-heading {
   margin-top: 38px;
   border-color: none;
 }
-.student-view-all-awards{
+.student-view-all-awards {
   background: #971723;
-  
 }
 .award-head-div {
   margin: 57px 0px;
@@ -528,10 +535,12 @@ h2.service-heading {
   margin-top: 47px;
   font-weight: 600;
 }
-.row1head1, .row2head2, .row3head2{
+.row1head1,
+.row2head2,
+.row3head2 {
   color: #971723;
 }
-.anchor-artical{
+.anchor-artical {
   color: #971723;
   font-weight: 500;
 }
@@ -654,11 +663,11 @@ hr {
   padding: 18px 0px;
 }
 /*### For Responsive design ###*/
-        /* #$#$# 1024 px #$#$# */
-@media (max-width: 1024px){
+/* #$#$# 1024 px #$#$# */
+@media (max-width: 1024px) {
   /*### Top Nav bar ###*/
   .top-navbar {
-    background: url('./logos/top-header.png');
+    background: url("./logos/top-header.png");
     /* width: 100%; */
     background-repeat: no-repeat;
     background-position: center;
@@ -667,9 +676,9 @@ hr {
     background-size: cover;
     padding-top: 6px;
     padding-bottom: 6px;
-}
-    /*  navbar  */
-  .navbar-ul-list{
+  }
+  /*  navbar  */
+  .navbar-ul-list {
     max-height: 45px;
   }
   div .HC4A-logo {
@@ -677,7 +686,7 @@ hr {
     left: 1px;
     height: 78px;
     width: 78px;
-}
+  }
   /* for banner section */
   div .service-learn {
     text-align: center;
@@ -690,13 +699,13 @@ hr {
     min-width: 764px;
     z-index: 1;
     /* padding: 0px 55px; */
-}
+  }
   /* for support student section */
   .support-1-content-1 {
     top: 58px;
     right: 19px;
-}
-  .supportBanner1-2-div{
+  }
+  .supportBanner1-2-div {
     top: 58px;
     left: 9px;
   }
@@ -709,221 +718,230 @@ hr {
     margin: 0px 14px;
     font-weight: 600;
     margin-top: 3px;
-}
-/* ### award section ### */
-.award-logo {
-  margin: 21px;
-  border: 1px solid #971723;
-  padding: 20px;
-  max-width: 193px;
-  min-width: 117px;
-  border-radius: 15px;
-  margin-left: 7px;
-}
-.student-view-all-awards-btn {
-  text-align: center;
-  margin-top: 38px;
-}
-/*### footer ###*/
-.footer-content-1-para, .footer-content-2-para, .footer-content-3-para {
-  padding-left: 35px;
-}
-.quick-list {
-  font-size: 17px;
-  font-weight: 500;
-  margin: 13px 0px;
-}
-.footer-end-content {
-  font-size: 16px;
-  padding: 16px 0px;
-}
+  }
+  /* ### award section ### */
+  .award-logo {
+    margin: 21px;
+    border: 1px solid #971723;
+    padding: 20px;
+    max-width: 193px;
+    min-width: 117px;
+    border-radius: 15px;
+    margin-left: 7px;
+  }
+  .student-view-all-awards-btn {
+    text-align: center;
+    margin-top: 38px;
+  }
+  /*### footer ###*/
+  .footer-content-1-para,
+  .footer-content-2-para,
+  .footer-content-3-para {
+    padding-left: 35px;
+  }
+  .quick-list {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 13px 0px;
+  }
+  .footer-end-content {
+    font-size: 16px;
+    padding: 16px 0px;
+  }
 }
 /* for laptop design 768px*/
-@media (max-width: 768px){
+@media (max-width: 768px) {
   /* for banner section*/
   h2.service-heading {
     font-size: 26px;
-}
-.service-para{
-  font-size: 16px;
-}
-div .service-learn {
-  text-align: center;
-  position: absolute;
-  width: 136px;
-  top: 25px; 
-  right: 7px;
-  min-width: 764px;
-  z-index: 1; 
-}
-.register-btn-div {
-  margin-top: 0px;
-}
-.banner-sub-1-sec-para, .banner-sub-2-sec-para, .banner-sub-3-sec-para {
-  color: #ffffff;
-  font-size: 14px;
-}
-.banner-sub-1-sec {
-  background: #253f7f;
-  padding: 21px;
-}
-.banner-sec-3 {
-  position: relative;
-  bottom: 34px;
-}
-/* ### about content ###*/
-.about-content-sub-1 {
-  padding: 16px;
-  margin: 52px 12px 12px 38px;
-}
-.about-sec-para-sub-2 {
-  border-top: 1px solid #971723;
-  padding: 52px 12px 78px 60px;
-}
-.about-content-sub-2-1 {
-  border-bottom: 1px solid #971723;
-  padding: 134px 12px 13px 29px;
-}
-.about-us-para{
-  font-size: 14px;
-}
-/* ### support the student section ### */
-.supportBanner1 {
-  background: url("./logos/supportstud1.png");
-  width: 250px;
-  height: 250px;
-  border: 5px solid white;
-}
-.support-student-para{
-  font-size: 13px;
-}
-.supportBanner2-content {
-  padding: 20px;
-}
-/*### donation section ###*/
-.content-part-2-heading {
-  font-size: 18px;
-  color: #253f7f;
-  font-weight: 500;
-}
-.content-part-2-para {
-  font-size: 18px;
-  margin-top: 0px;
-}
-.content-part-3 {
-  background: #ffd32a;
-  padding: 10px 12px;
-  text-align: center;
-  font-size: 18px;
-  margin: 0px 16px;
-  font-weight: 600;
-  margin-top: 11px;
-}
-.dollar-sign-100 {
-  font-size: 28px;
-  text-align: center;
-  background: #c4c4c4;
-  width: 56px;
-  margin-left: 6px;
-}
-.dollar-sign {
-  background: #253f7f;
-  font-size: 28px;
-  text-align: center;
-  width: 20px;
-}
+  }
+  .service-para {
+    font-size: 16px;
+  }
+  div .service-learn {
+    text-align: center;
+    position: absolute;
+    width: 136px;
+    top: 25px;
+    right: 7px;
+    min-width: 764px;
+    z-index: 1;
+  }
+  .register-btn-div {
+    margin-top: 0px;
+  }
+  .banner-sub-1-sec-para,
+  .banner-sub-2-sec-para,
+  .banner-sub-3-sec-para {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .banner-sub-1-sec {
+    background: #253f7f;
+    padding: 21px;
+  }
+  .banner-sec-3 {
+    position: relative;
+    bottom: 34px;
+  }
+  /* ### about content ###*/
+  .about-content-sub-1 {
+    padding: 16px;
+    margin: 52px 12px 12px 38px;
+  }
+  .about-sec-para-sub-2 {
+    border-top: 1px solid #971723;
+    padding: 52px 12px 78px 60px;
+  }
+  .about-content-sub-2-1 {
+    border-bottom: 1px solid #971723;
+    padding: 134px 12px 13px 29px;
+  }
+  .about-us-para {
+    font-size: 14px;
+  }
+  /* ### support the student section ### */
+  .supportBanner1 {
+    background: url("./logos/supportstud1.png");
+    width: 250px;
+    height: 250px;
+    border: 5px solid white;
+  }
+  .support-student-para {
+    font-size: 13px;
+  }
+  .supportBanner2-content {
+    padding: 20px;
+  }
+  /*### donation section ###*/
+  .content-part-2-heading {
+    font-size: 18px;
+    color: #253f7f;
+    font-weight: 500;
+  }
+  .content-part-2-para {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .content-part-3 {
+    background: #ffd32a;
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px 16px;
+    font-weight: 600;
+    margin-top: 11px;
+  }
+  .dollar-sign-100 {
+    font-size: 28px;
+    text-align: center;
+    background: #c4c4c4;
+    width: 56px;
+    margin-left: 6px;
+  }
+  .dollar-sign {
+    background: #253f7f;
+    font-size: 28px;
+    text-align: center;
+    width: 20px;
+  }
 
-/*#### award section page ####*/
-.award-logo {
-  margin: 21px;
-  border: 1px solid #971723;
-  padding: 20px;
-  max-width: 145px;
-  min-width: 117px;
-  border-radius: 15px;
-  margin-left: 7px;
-}
-.content-para-3{
-  margin-left: -15px;
-}
-.footerimg1, .footerimg2, .footerimg3{
-  width: 110px;
-  height: 110px;
-}
-.footer-content-1-para, .footer-content-2-para, .footer-content-3-para {
-  padding-left: 0px;
-}
-/*#### new artical section ####*/
-.row1Img1 {
-  height: 250px;
-  width: 200px;
-}
-.row1para1, .row2para2, .row3para2{
-  font-size: 16px;
-}
-.row1Img2 { 
-  height: 361px;
-  width: 212px;
-  border-radius: 12px;
-}
-.row1Img2:before {
-  content: '';
-  position: absolute;
-  left: 14px;
-  top: 0;
-  background: rgba(40, 40, 40, 0.4);
-  width: 88%;
-  height: 100%;
-  border-radius: 19px;
-}
-.row2Sec1-div {
-  position: relative;
-  top: 47px;
-  font-size: 15px;
-  color: #f1f1f1;
-}
-.row2Img2 {
-  height: 250px;
-  width: 216px;
-  padding-top: 24px;
-}
-.row3Img1 {
-  height: 360px;
-  width: 229px;
-  border-radius: 14px;
-}
-.row3Img1:before {
-  content: '';
-  position: absolute;
-  left: 14px;
-  top: 0;
-  background: rgba(40, 40, 40, 0.4);
-  width: 88%;
-  height: 100%;
-  border-radius: 19px;
-}
-.row2Img3 { 
-  height: 250px;
-  width: 219px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 44px;
-}
-.row2Img3:before {
-  content: '';
-  position: absolute;
-  left: 13px;
-  top: 17px;
-  background: rgba(37, 63, 127, 0.53);
-  width: 88%;
-  height: 82%;
-  border-radius: 19px;
-}
-.row3Img2 {
-  height: 250px;
-  width: 229px;
-  margin-top: 19px;
-  
-}
-
+  /*#### award section page ####*/
+  .award-logo {
+    margin: 21px;
+    border: 1px solid #971723;
+    padding: 20px;
+    max-width: 145px;
+    min-width: 117px;
+    border-radius: 15px;
+    margin-left: 7px;
+  }
+  .content-para-3 {
+    margin-left: -15px;
+  }
+  .footerimg1,
+  .footerimg2,
+  .footerimg3 {
+    width: 110px;
+    height: 110px;
+  }
+  .footer-content-1-para,
+  .footer-content-2-para,
+  .footer-content-3-para {
+    padding-left: 0px;
+  }
+  /*#### new artical section ####*/
+  .row1Img1 {
+    height: 250px;
+    width: 200px;
+  }
+  .row1para1,
+  .row2para2,
+  .row3para2 {
+    font-size: 16px;
+  }
+  .row1Img2 {
+    height: 361px;
+    width: 212px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.25);
+  }
+  .row1Img2:before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 0;
+    background: rgba(40, 40, 40, 0.4);
+    width: 88%;
+    height: 100%;
+    border-radius: 19px;
+  }
+  .row2Sec1-div {
+    position: relative;
+    top: 47px;
+    font-size: 15px;
+    color: #f1f1f1;
+  }
+  .row2Img2 {
+    height: 250px;
+    width: 216px;
+    padding-top: 24px;
+  }
+  .row3Img1 {
+    height: 360px;
+    width: 229px;
+    border-radius: 14px;
+  }
+  .row3Img1:before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 0;
+    background: rgba(40, 40, 40, 0.4);
+    width: 88%;
+    height: 100%;
+    border-radius: 19px;
+  }
+  .row2Img3 {
+    height: 250px;
+    width: 219px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 44px;
+  }
+  .row2Img3:before {
+    content: "";
+    position: absolute;
+    left: 13px;
+    top: 17px;
+    background: rgba(37, 63, 127, 0.53);
+    width: 88%;
+    height: 82%;
+    border-radius: 19px;
+  }
+  .row3Img2 {
+    height: 250px;
+    width: 229px;
+    margin-top: 19px;
+  }
 }
