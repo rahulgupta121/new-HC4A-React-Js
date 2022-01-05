@@ -12,7 +12,7 @@ const FooterSection = () => {
             <div className=''>
                 <div className='container footer-background pt-5 pb-5'>
                     <div className='row'>
-                        <div className='col-sm-12 col-mg-4 col-lg-4'>
+                        <div className='col-sm-6 col-mg-4 col-lg-4'>
                             <ul className='list-unstyled'>
                                 <li><img src={hc4alogo} alt='/' /></li>
                                 <li className='hc4a-list'><MdLocationOn /> <span className='address-hc4a text-center'>Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522</span></li>
@@ -21,7 +21,7 @@ const FooterSection = () => {
                                            <span className='mail-hc4a'>abc@gmail.com</span> </li>
                             </ul>
                         </div>
-                        <div className='col-sm-12 col-mg-4 col-lg-4'>
+                        <div className='col-sm-6 col-mg-4 col-lg-4'>
                             
                             <ul className='list-unstyled'>
                                 <li><h3 className='text-uppercase'>Quick links</h3></li>
@@ -43,7 +43,7 @@ const FooterSection = () => {
                                 <div className='row pb-2'>
                                     <div className='footer-content-1 col-sm-3 col-mg-3 col-lg-3'>
                                      
-                                    <img src={footerimg1} alt=''/>
+                                    <img className='footerimg1' src={footerimg1} alt=''/>
                                     </div>
                                     <div className='footer-content-1-para col-sm-9 col-mg-9 col-lg-9'>
                                         <h6>Our donation is hope for poor childrens</h6>
@@ -56,7 +56,7 @@ const FooterSection = () => {
                             <div className='col-sm-12 col-mg-12 col-lg-12'>
                                 <div className='row pt-2 pb-2 footer-content-3-2'>
                                     <div className='footer-content-2 col-sm-3 col-mg-3 col-lg-3'>
-                                    <img src={footerimg2} alt=''/>
+                                    <img className='footerimg2' src={footerimg2} alt=''/>
                                     </div>
                                     <div className='footer-content-2-para col-sm-9 col-mg-9 col-lg-9'>
                                         <h6>Our donation is hope for poor childrens</h6>
@@ -70,7 +70,7 @@ const FooterSection = () => {
                             <div className=' col-sm-12 col-mg-12 col-lg-12'>
                                 <div className='row pt-2 pb-2'>
                                     <div className='footer-content-3 col-sm-3 col-mg-3 col-lg-3'>
-                                    <img src={footerimg3} alt=''/>
+                                    <img className='footerimg3' src={footerimg3} alt=''/>
                                     </div>
                                     <div className='footer-content-3-para col-sm-9 col-mg-9 col-lg-9'>
                                         <h6>Make Life Easier for Ebola & Alzheimer</h6>

@@ -261,6 +261,7 @@ h2.service-heading {
 .donationBanner-div {
   background-image: url("./logos/donation-Img.png");
   padding: 63px;
+  background-repeat: no-repeat;
 }
 .progress-bar {
   width: 20%;
@@ -338,12 +339,12 @@ h2.service-heading {
 }
 .row1Img1 {
   height: 250px;
-  width: 283px;
+  max-width: 100%;
 }
 .row1Img2 {
   background: url('./logos/new-artical-1-2.png');
   height: 361px;
-    width: 291px;
+  max-width: 100%;
     border-radius: 12px;
 }
 .row1Img2:before {
@@ -352,7 +353,7 @@ h2.service-heading {
   left: 13px;
   top: 0;
   background: rgba(40, 40, 40, 0.4);
-  width: 77%;
+  width: 93%;
   height: 100%;
   border-radius: 19px;
 }
@@ -362,6 +363,7 @@ h2.service-heading {
   background: url("./logos/new-artical-2-1.png");
   background-position: center;
   border-radius: 19px;
+  max-width: 100%;
 }
  
 .row2Img1:before {
@@ -376,13 +378,13 @@ h2.service-heading {
 }
 .row2Img2 {
   height: 250px;
-  width: 295px;
+  max-width: 100%;
   padding-top: 29px;
 }
 .row2Img3 {
   background: url("./logos/new-artical-2-3.png");
   height: 250px;
-  width: 292px;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 44px;
@@ -393,7 +395,7 @@ h2.service-heading {
   left: 13px;
   top: 17px;
   background: rgba(37, 63, 127, 0.53);
-  width: 92%;
+  width: 93%;
   height: 82%;
   border-radius: 19px;
 }
@@ -407,23 +409,39 @@ h2.service-heading {
   color: white;
 }
 .row3Img1 {
+  background: url('./logos/new-artical-3-1.png');
   height: 360px;
-  width: 283px;
+  max-width: 100%;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 14px;
+}
+.row3Img1:before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 0;
+  background: rgba(40, 40, 40, 0.4);
+  width: 93%;
+  height: 100%;
+  border-radius: 19px;
 }
 .row3Img2 {
   height: 250px;
-  width: 250px;
+  max-width: 100%;
+  margin-top: 34px;
 }
 .ongoingContent {
   position: relative;
   left: 20px;
+  top: 306px;
 }
 .row3para1 {
-  position: relative;
-  bottom: 50px;
-  font-size: 17px;
+  position: relative; 
+  top: 306px;
+  font-size: 18px;
   font-weight: 500;
-  /* color: white; */
+  color: white;
   left: 21px;
 }
 .row2Sec1-div {
@@ -432,6 +450,7 @@ h2.service-heading {
   font-size: 15px;
   color: #f1f1f1;
 }
+
 /* #### became-volunteer #### */
 .became-volunteer-div {
   background: url("./logos/became\ volunteer.png");
@@ -509,7 +528,13 @@ h2.service-heading {
   margin-top: 47px;
   font-weight: 600;
 }
-
+.row1head1, .row2head2, .row3head2{
+  color: #971723;
+}
+.anchor-artical{
+  color: #971723;
+  font-weight: 500;
+}
 /* ### Up coming Event ### */
 .upcoming-event-background {
   background: url("./logos/upcoming-event-bg.png");
@@ -774,6 +799,131 @@ div .service-learn {
 }
 .supportBanner2-content {
   padding: 20px;
+}
+/*### donation section ###*/
+.content-part-2-heading {
+  font-size: 18px;
+  color: #253f7f;
+  font-weight: 500;
+}
+.content-part-2-para {
+  font-size: 18px;
+  margin-top: 0px;
+}
+.content-part-3 {
+  background: #ffd32a;
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 18px;
+  margin: 0px 16px;
+  font-weight: 600;
+  margin-top: 11px;
+}
+.dollar-sign-100 {
+  font-size: 28px;
+  text-align: center;
+  background: #c4c4c4;
+  width: 56px;
+  margin-left: 6px;
+}
+.dollar-sign {
+  background: #253f7f;
+  font-size: 28px;
+  text-align: center;
+  width: 20px;
+}
+
+/*#### award section page ####*/
+.award-logo {
+  margin: 21px;
+  border: 1px solid #971723;
+  padding: 20px;
+  max-width: 145px;
+  min-width: 117px;
+  border-radius: 15px;
+  margin-left: 7px;
+}
+.content-para-3{
+  margin-left: -15px;
+}
+.footerimg1, .footerimg2, .footerimg3{
+  width: 110px;
+  height: 110px;
+}
+.footer-content-1-para, .footer-content-2-para, .footer-content-3-para {
+  padding-left: 0px;
+}
+/*#### new artical section ####*/
+.row1Img1 {
+  height: 250px;
+  width: 200px;
+}
+.row1para1, .row2para2, .row3para2{
+  font-size: 16px;
+}
+.row1Img2 { 
+  height: 361px;
+  width: 212px;
+  border-radius: 12px;
+}
+.row1Img2:before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 0;
+  background: rgba(40, 40, 40, 0.4);
+  width: 88%;
+  height: 100%;
+  border-radius: 19px;
+}
+.row2Sec1-div {
+  position: relative;
+  top: 47px;
+  font-size: 15px;
+  color: #f1f1f1;
+}
+.row2Img2 {
+  height: 250px;
+  width: 216px;
+  padding-top: 24px;
+}
+.row3Img1 {
+  height: 360px;
+  width: 229px;
+  border-radius: 14px;
+}
+.row3Img1:before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 0;
+  background: rgba(40, 40, 40, 0.4);
+  width: 88%;
+  height: 100%;
+  border-radius: 19px;
+}
+.row2Img3 { 
+  height: 250px;
+  width: 219px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 44px;
+}
+.row2Img3:before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  top: 17px;
+  background: rgba(37, 63, 127, 0.53);
+  width: 88%;
+  height: 82%;
+  border-radius: 19px;
+}
+.row3Img2 {
+  height: 250px;
+  width: 229px;
+  margin-top: 19px;
+  
 }
 
 }

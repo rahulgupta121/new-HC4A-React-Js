@@ -60,24 +60,7 @@ const Donation = () => {
                   </div>
                 </div>
               </div>
-              {/* content part 3 */}
-              {/* <div className="row">
-                <div className="col-sm-2 col-md-2 col-lg-2 content-part-3">
-                  <p className="mb-0 content-part-3-para">$10</p>
-                </div>
-                <div className="col-sm-2 col-md-2 col-lg-2 content-part-3">
-                  <p className="mb-0 content-part-3-para">$20</p>
-                </div>
-                <div className="col-sm-2 col-md-2 col-lg-2 content-part-3">
-                  <p className="mb-0 content-part-3-para">$50</p>
-                </div>
-                <div className="col-sm-2 col-md-2 col-lg-2 content-part-3">
-                  <p className="mb-0 content-part-3-para">$100</p>
-                </div>
-                <div className="col-sm-4 col-md-4 col-lg-4 content-part-3">
-                  <p className="mb-0 content-part-3-para">Custom Amount</p>
-                </div>
-              </div> */}
+              {/* content part 3 */} 
               <div className="content-part-3-div text-center">
                 <ul className="list-unstyled list-inline ul-content-3">
                   <li class="list-inline-item content-part-3 li-content-3">$10</li>

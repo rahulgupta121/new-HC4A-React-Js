@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from "react"; 
 const UpComingEvent = () => {
   return (
     <>
@@ -7,6 +6,7 @@ const UpComingEvent = () => {
         <div className="container">
           <div className="row ">
             <div className="col-sm-12 col-md-4 col-lg-4 mt-5">
+            <div className="justify-content-center">
               <h5 className="text-white text-uppercase">
                 Up Coming Events Workshops, Roundtables, And Webinars
               </h5>
@@ -22,6 +22,7 @@ const UpComingEvent = () => {
                 >
                   VIEW ALL EVENT
                 </button>
+              </div>
               </div>
             </div>
 
@@ -62,7 +63,7 @@ const UpComingEvent = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="col-sm-12 col-md-3 col-lg-3">
+                    <div className="content-para-3 col-sm-12 col-md-3 col-lg-3">
                       <div>
                         <ul className="ul-li-content-para-3 list-inline list-unstyled">
                           <li className="li-content-para-3 ">
@@ -122,7 +123,7 @@ const UpComingEvent = () => {
                             </button>
                           </div>
                         </div>
-                        <div className="col-sm-12 col-md-3 col-lg-3">
+                        <div className="content-para-3 col-sm-12 col-md-3 col-lg-3">
                           <div>
                             <ul className="ul-li-content-para-3 list-inline list-unstyled">
                               <li className="li-content-para-3">
@@ -183,7 +184,7 @@ const UpComingEvent = () => {
                             </button>
                           </div>
                         </div>
-                        <div className="col-sm-12 col-md-3 col-lg-3">
+                        <div className="content-para-3 col-sm-12 col-md-3 col-lg-3">
                           <div>
                             <ul className="ul-li-content-para-3 list-inline list-unstyled">
                               <li className="li-content-para-3">
