@@ -41,17 +41,17 @@ const AboutUs = () => {
                 <h6 className="about-sec-heading-2">
                   DONATE FOR POOR KEEP THE HUMANITY
                 </h6>
-                <p className="">
+                <p className="about-us-para">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <p className="">
+                <p className="about-us-para">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <p className="">
+                <p className="about-us-para">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco

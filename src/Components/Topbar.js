@@ -14,7 +14,7 @@ const Topbar = () => {
             </div>
 
             <div className="telephone col-12 col-lg-4 col-md-4 col-sm-12 ">
-              <div className="d-flex align-items-center">
+              <div className="d-flex justify-content-center">
                 <div className="pr-2 d-flex align-items-center">
                 <i class="fas fa-phone"></i>
                   <h6> +125 445-485-5242</h6>

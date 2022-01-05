@@ -11,7 +11,7 @@ const SupportStudent = () => {
       <div className="Support-stud-banner-div">
         <div className="container pt-5 pb-5">
           <div className="row">
-            <div className="support-1-content-1 col-sm-12 col-md-4 col-lg-4">
+            <div className="support-1-content-1 col-sm-12 col-md-5 col-lg-4">
               <div className="supportBanner1-div">
                 <img
                   className="supportBanner1 rounded-circle"
@@ -21,7 +21,7 @@ const SupportStudent = () => {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-8 col-lg-8 supportBanner2-div">
+            <div className="col-sm-12 col-md-7 col-lg-8 supportBanner2-div">
               <div className="supportBanner2-content">
                 <h4>Support The Students</h4>
 
@@ -31,7 +31,7 @@ const SupportStudent = () => {
                   <img className="" alt="" src={rectangle} />
                 </div>
 
-                <p className="text-black">
+                <p className="text-black support-student-para">
                   School Supplies – Based on data from Texas Homeless Education
                   Office, we identify the schools with homeless children needing
                   most help. We then provide them the school supplies that they
@@ -40,7 +40,7 @@ const SupportStudent = () => {
                   organizations that are connected directly to homeless
                   students.
                 </p>
-                <p className="text-black">
+                <p className="text-black support-student-para">
                   Vocational Training Scholarships – We provide broad guidelines
                   to the institutions and entrust them to select students. The
                   key points in the Guidelines are: The student must be living
@@ -64,7 +64,7 @@ const SupportStudent = () => {
 
         <div className="container pt-5 pb-5">
           <div className="row">
-            <div className="col-sm-12 col-md-8 col-lg-8 supportBanner2-div supportBanner2-div-2">
+            <div className="col-sm-12 col-md-7 col-lg-8 supportBanner2-div supportBanner2-div-2">
               <div className="supportBanner2-content">
                 <h4 className="text-white">Support The Students</h4>
                 <div className="circle-logo">
@@ -72,7 +72,7 @@ const SupportStudent = () => {
                   <img className="" alt="" src={RedCircle} />
                   <img className="" alt="" src={rectangle} />
                 </div>
-                <p className="text-white">
+                <p className="text-white support-student-para">
                   School Supplies – Based on data from Texas Homeless Education
                   Office, we identify the schools with homeless children needing
                   most help. We then provide them the school supplies that they
@@ -81,7 +81,7 @@ const SupportStudent = () => {
                   organizations that are connected directly to homeless
                   students.
                 </p>
-                <p className="text-white">
+                <p className="text-white support-student-para">
                   Vocational Training Scholarships – We provide broad guidelines
                   to the institutions and entrust them to select students. The
                   key points in the Guidelines are: The student must be living
@@ -99,7 +99,7 @@ const SupportStudent = () => {
                 </div>
               </div>
             </div>
-            <div className="support-1-content-1 supportBanner1-2-div col-sm-12 col-md-4 col-lg-4">
+            <div className="support-1-content-1 supportBanner1-2-div col-sm-12 col-md-5 col-lg-4">
               <div className="supportBanner1-2">
                 <img
                   className="supportBanner1 rounded-circle"

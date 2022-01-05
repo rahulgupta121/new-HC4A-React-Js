@@ -713,3 +713,67 @@ hr {
   padding: 16px 0px;
 }
 }
+/* for laptop design 768px*/
+@media (max-width: 768px){
+  /* for banner section*/
+  h2.service-heading {
+    font-size: 26px;
+}
+.service-para{
+  font-size: 16px;
+}
+div .service-learn {
+  text-align: center;
+  position: absolute;
+  width: 136px;
+  top: 25px; 
+  right: 7px;
+  min-width: 764px;
+  z-index: 1; 
+}
+.register-btn-div {
+  margin-top: 0px;
+}
+.banner-sub-1-sec-para, .banner-sub-2-sec-para, .banner-sub-3-sec-para {
+  color: #ffffff;
+  font-size: 14px;
+}
+.banner-sub-1-sec {
+  background: #253f7f;
+  padding: 21px;
+}
+.banner-sec-3 {
+  position: relative;
+  bottom: 34px;
+}
+/* ### about content ###*/
+.about-content-sub-1 {
+  padding: 16px;
+  margin: 52px 12px 12px 38px;
+}
+.about-sec-para-sub-2 {
+  border-top: 1px solid #971723;
+  padding: 52px 12px 78px 60px;
+}
+.about-content-sub-2-1 {
+  border-bottom: 1px solid #971723;
+  padding: 134px 12px 13px 29px;
+}
+.about-us-para{
+  font-size: 14px;
+}
+/* ### support the student section ### */
+.supportBanner1 {
+  background: url("./logos/supportstud1.png");
+  width: 250px;
+  height: 250px;
+  border: 5px solid white;
+}
+.support-student-para{
+  font-size: 13px;
+}
+.supportBanner2-content {
+  padding: 20px;
+}
+
+}
