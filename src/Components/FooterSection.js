@@ -26,7 +26,7 @@ const FooterSection = () => {
                             <ul className='list-unstyled'>
                                 <li><h3 className='text-uppercase'>Quick links</h3></li>
                                 <hr className='footer-hr'/>
-                                <li className='quick-list mt-0'><MdDoubleArrow/> About Us</li>
+                                <li className='quick-list mt-0 mb-0'><MdDoubleArrow/> About Us</li>
                                 <li className='quick-list'><MdDoubleArrow/>Contact Us</li>
                                 <li className='quick-list'><MdDoubleArrow/>Home</li>
                                 <li className='quick-list'><MdDoubleArrow/>Donate</li>
@@ -45,7 +45,7 @@ const FooterSection = () => {
                                      
                                     <img src={footerimg1} alt=''/>
                                     </div>
-                                    <div className='col-sm-9 col-mg-9 col-lg-9'>
+                                    <div className='footer-content-1-para col-sm-9 col-mg-9 col-lg-9'>
                                         <h6>Our donation is hope for poor childrens</h6>
                                         <p>August 14, 2021</p>
                                     </div>
@@ -58,7 +58,7 @@ const FooterSection = () => {
                                     <div className='footer-content-2 col-sm-3 col-mg-3 col-lg-3'>
                                     <img src={footerimg2} alt=''/>
                                     </div>
-                                    <div className='col-sm-9 col-mg-9 col-lg-9'>
+                                    <div className='footer-content-2-para col-sm-9 col-mg-9 col-lg-9'>
                                         <h6>Our donation is hope for poor childrens</h6>
                                         <p>July 24, 2021</p>
                                     </div>
@@ -72,7 +72,7 @@ const FooterSection = () => {
                                     <div className='footer-content-3 col-sm-3 col-mg-3 col-lg-3'>
                                     <img src={footerimg3} alt=''/>
                                     </div>
-                                    <div className='col-sm-9 col-mg-9 col-lg-9'>
+                                    <div className='footer-content-3-para col-sm-9 col-mg-9 col-lg-9'>
                                         <h6>Make Life Easier for Ebola & Alzheimer</h6>
                                         <p>March 04, 2021</p>
                                     </div>
@@ -88,7 +88,7 @@ const FooterSection = () => {
             </div>   
         </div> 
         <div className='footer-end text-center'>
-                <p className='footer-end-content text-white pt-4 pb-4 mb-0'>© 2021 Hindu Charities for America</p>
+                <p className='footer-end-content text-white mb-0'>© 2021 Hindu Charities for America</p>
             </div>   
         </>
     )

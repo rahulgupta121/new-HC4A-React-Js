@@ -74,7 +74,7 @@ const AwardSection = () => {
                 </div>
               </div>
               <div class="student-view-all-awards-btn">
-                <button type="button" class=" btn btn-danger text-white">
+                <button type="button" class="student-view-all-awards btn btn-danger text-white">
                   {" "}
                   VIEW ALL AWARDS
                 </button>

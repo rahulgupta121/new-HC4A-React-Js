@@ -494,6 +494,11 @@ h2.service-heading {
 .student-view-all-awards-btn {
   text-align: center;
   margin-top: 38px;
+  border-color: none;
+}
+.student-view-all-awards{
+  background: #971723;
+  
 }
 .award-head-div {
   margin: 57px 0px;
@@ -595,7 +600,7 @@ hr {
   margin-left: inherit;
 }
 .recent-head {
-  margin-left: 0px;
+  margin-left: -14px;
 }
 .quick-list {
   font-size: 20px;
@@ -621,6 +626,7 @@ hr {
 }
 .footer-end-content {
   font-size: 20px;
+  padding: 18px 0px;
 }
 /*### For Responsive design ###*/
         /* #$#$# 1024 px #$#$# */
@@ -678,5 +684,32 @@ hr {
     margin: 0px 14px;
     font-weight: 600;
     margin-top: 3px;
+}
+/* ### award section ### */
+.award-logo {
+  margin: 21px;
+  border: 1px solid #971723;
+  padding: 20px;
+  max-width: 193px;
+  min-width: 117px;
+  border-radius: 15px;
+  margin-left: 7px;
+}
+.student-view-all-awards-btn {
+  text-align: center;
+  margin-top: 38px;
+}
+/*### footer ###*/
+.footer-content-1-para, .footer-content-2-para, .footer-content-3-para {
+  padding-left: 35px;
+}
+.quick-list {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 13px 0px;
+}
+.footer-end-content {
+  font-size: 16px;
+  padding: 16px 0px;
 }
 }
