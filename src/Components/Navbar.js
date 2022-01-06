@@ -3,10 +3,10 @@ import hc4alogo from "../logos/HC4A-logo.png"
 const Navbar = () => {
     return (
         <>
-        <div className="container d-flex justify-content-center position-relative">
-    <nav className="navbar navbar-expand-lg navbar-light bg-white">
-      {/* <!-- <a className="navbar-brand" href="/">Navbar scroll</a> --> */}
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/navbarScroll"
+        <div className="container d-flex navbar-button-div justify-content-center position-relative">
+    <nav className="navbar navbar-expand-lg navbar-button navbar-light bg-white">
+      
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
