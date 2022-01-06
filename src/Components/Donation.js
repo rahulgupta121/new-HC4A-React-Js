@@ -16,13 +16,13 @@ const Donation = () => {
                 </p>
               </div>
               <div className="row">
-                <div className="col-sm-6 col-md-6 col-lg-6">
+                <div className="col-6 col-sm-6 col-md-6 col-lg-6">
                   <p className="text-white mt-0 mb-0">Raised so far</p>
                   <h5 className="text-warning donation-font-weight mt-0">
                     $1,200
                   </h5>
                 </div>
-                <div className="col-sm-6 col-md-6 col-lg-6 text-right">
+                <div className="col-6 col-sm-6 col-md-6 col-lg-6 text-right">
                   <p className="text-white mt-0 mb-0">Our Goal</p>
                   <h5 className="text-warning donation-font-weight mt-0 ">
                     $5,000
@@ -43,13 +43,13 @@ const Donation = () => {
             <div className="col-sm-12 col-md-6 col-lg-6 content-part-2">
               <p className="content-top-para">Please Select</p>
               <div className="row">
-                <div className="col-sm-8 col-md-8 col-lg-8">
+                <div className="col-8 col-sm-8 col-md-8 col-lg-8">
                   <p className="content-part-2-heading">AMOUNT TO DONATE</p>
                   <p className="content-part-2-para">
                     All donations are tax deductable.
                   </p>
                 </div>
-                <div className="col-sm-4 col-md-4 col-lg-4 text-center">
+                <div className="col-4 col-sm-4 col-md-4 col-lg-4 text-center">
                   <div className=" dollar-section">
                    
                     <p className="dollar-sign text-white">$</p>

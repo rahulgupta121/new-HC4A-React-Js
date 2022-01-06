@@ -28,14 +28,14 @@ const UpComingEvent = () => {
 
             <div className="col-sm-12 col-md-8 col-lg-8 mt-5">
               <div className="row">
-                <div className=" col-sm-12 col-md-12 col-lg-12 mb-3">
+                <div className="col-upcoming-event col-sm-12 col-md-12 col-lg-12 mb-3">
                   <div className="row upcoming-event-content-2">
-                    <div className="event-date col-sm-1 col-md-1 col-lg-1">
+                    <div className="event-date col-1 col-sm-1 col-md-1 col-lg-1">
                       <h6 className="text-dark">
                         <span className="nov27">27</span> Nov
                       </h6>
                     </div>
-                    <div className="col-sm-7 col-md-8 col-lg-8">
+                    <div className="col-7 col-sm-7 col-md-8 col-lg-8">
                       <h6 className="text-uppercase event-content-para-2 pt-2">
                         Activists for Gender Equality Financing
                       </h6>
@@ -63,7 +63,7 @@ const UpComingEvent = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="content-para-3 col-sm-4 col-md-3 col-lg-3">
+                    <div className="content-para-3 col-4 col-sm-4 col-md-3 col-lg-3">
                       <div>
                         <ul className="ul-li-content-para-3 list-inline list-unstyled">
                           <li className="li-content-para-3 ">
@@ -88,14 +88,14 @@ const UpComingEvent = () => {
                 {/* for section 2 */}
                 <div className=" col-sm-12 col-md-12 col-lg-12  mb-3">
                   <div className="row">
-                    <div className=" col-sm-12 col-md-12 col-lg-12">
+                    <div className="col-upcoming-event col-sm-12 col-md-12 col-lg-12">
                       <div className="row upcoming-event-content-2">
-                        <div className="event-date col-sm-1 col-md-1 col-lg-1">
+                        <div className="event-date col-1 col-sm-1 col-md-1 col-lg-1">
                           <h6 className="text-dark">
                             <span className="nov27">15</span> Dec
                           </h6>
                         </div>
-                        <div className="col-sm-7 col-md-8 col-lg-8">
+                        <div className="col-7 col-sm-7 col-md-8 col-lg-8">
                           <h6 className="text-dark text-uppercase event-content-para-2">
                             Activists for Gender Equality Financing
                           </h6>
@@ -124,7 +124,7 @@ const UpComingEvent = () => {
                             </button>
                           </div>
                         </div>
-                        <div className="content-para-3 col-sm-4 col-md-3 col-lg-3">
+                        <div className="content-para-3 col-4 col-sm-4 col-md-3 col-lg-3">
                           <div>
                             <ul className="ul-li-content-para-3 list-inline list-unstyled">
                               <li className="li-content-para-3">
@@ -151,14 +151,14 @@ const UpComingEvent = () => {
                 {/* for section 3 */}
                 <div className=" col-sm-12 col-md-12 col-lg-12  mb-3">
                   <div className="row">
-                    <div className="col-sm-12 col-md-12 col-lg-12">
+                    <div className="col-upcoming-event col-sm-12 col-md-12 col-lg-12">
                       <div className="row upcoming-event-content-2">
-                        <div className="event-date col-sm-1 col-md-1 col-lg-1">
+                        <div className="event-date col-1 col-sm-1 col-md-1 col-lg-1">
                           <h6 className="text-dark">
                             <span className="nov27">05</span> Jan
                           </h6>
                         </div>
-                        <div className="col-sm-7 col-md-8 col-lg-8">
+                        <div className="col-7 col-sm-7 col-md-8 col-lg-8">
                           <h6 className="text-dark text-uppercase event-content-para-2">
                             Activists for Gender Equality Financing
                           </h6>
@@ -186,7 +186,7 @@ const UpComingEvent = () => {
                             </button>
                           </div>
                         </div>
-                        <div className="content-para-3 col-sm-4 col-md-3 col-lg-3">
+                        <div className="content-para-3 col-4 col-sm-4 col-md-3 col-lg-3">
                           <div>
                             <ul className="ul-li-content-para-3 list-inline list-unstyled">
                               <li className="li-content-para-3">
