@@ -43,20 +43,24 @@ const Donation = () => {
             <div className="col-sm-12 col-md-6 col-lg-6 content-part-2">
               <p className="content-top-para">Please Select</p>
               <div className="row">
-                <div className="col-sm-12 col-md-8 col-lg-8">
+                <div className="col-sm-8 col-md-8 col-lg-8">
                   <p className="content-part-2-heading">AMOUNT TO DONATE</p>
                   <p className="content-part-2-para">
                     All donations are tax deductable.
                   </p>
                 </div>
-                <div className="col-sm-12 col-md-4 col-lg-4">
-                  <div className="row dollar-section">
-                    <div className="col-sm-6 col-md-5 col-lg-5">
+                <div className="col-sm-4 col-md-4 col-lg-4 text-center">
+                  <div className=" dollar-section">
+                   
+                    <p className="dollar-sign text-white">$</p>
+                    <p className="dollar-sign-100">100</p>
+                  
+                    {/* <div className="col-sm-6 col-md-5 col-lg-5">
                       <p className="dollar-sign text-white">$</p>
                     </div>
                     <div className="col-sm-6 col-md-7 col-lg-7 dollar-sign-100-div">
                       <p className="dollar-sign-100">100</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

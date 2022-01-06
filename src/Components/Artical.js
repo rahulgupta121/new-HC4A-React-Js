@@ -99,7 +99,7 @@ const Artical = () => {
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12">
-                  <div className="for-box-shadow mt-4">
+                  <div className="for-box-shadow-3-2 mt-4">
                     <img className="row3Img2" src={row3Img2} alt="" />
                     <div className="row3Content">
                       <h6 className="row3head2 pt-4 pb-3">
