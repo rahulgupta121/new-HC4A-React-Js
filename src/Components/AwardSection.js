@@ -26,7 +26,7 @@ const AwardSection = () => {
                       <h5 className="card-title pt-2 text-white">
                         The Award – Community Appreciation
                       </h5>
-                      <p className="text-white">
+                      <p className="text-white award-para">
                         In 2017, US President Donald Trump honored founder
                         Harish Kotecha President’s “Lifetime Achievement Award”.
                         The award reads “With grateful President’s Lifetime
