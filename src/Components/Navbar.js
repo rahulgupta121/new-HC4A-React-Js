@@ -9,9 +9,9 @@ const Navbar = () => {
         x.style.display = "block";
       } else {
         x.style.display = "none";
-      }
-    
+      } 
   }
+
     return (
         <>
         <div className="container d-flex navbar-button-div justify-content-center position-relative">
@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="collapse navbar-main-div navbar-collapse" id="navbarScroll">
         <ul className="navbar-nav navbar-ul-list mr-auto my-2 my-lg-0 navbar-nav-scroll" style={{alignItems: "center" }}>
           <li className="home nav-item active navbar-li-list">
-            <a exact activeClassName="active_class" to='/contact' className="nav-link" href="#/"> HOME <span className="sr-only">(current)</span></a>
+            <a to='/contact' className="nav-link" href="#/contact"> HOME <span className="sr-only">(current)</span></a>
           </li>
           <li className="about-us navbar-li-list nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#/" id="navbarScrollingDropdown" role="button"

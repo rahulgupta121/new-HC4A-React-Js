@@ -18,8 +18,7 @@ const AboutUs = () => {
                     <h6 className="about-sec-head-sub-1"> 10 K</h6>
                     <p>Satisfied Clients</p>
                   </div>
-                </div>
-
+                </div> 
                 <div className="about-sec-col-sub-2 col-sm-6 col-md-6 col-lg-6">
                   <div className="about-content-sub-2-1">
                     <h6 className="about-sec-head-sub-2-1">961</h6>

@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, Switch , Menu } from "react-router-dom";
+//import { Route, Switch , Menu } from "react-router-dom";
 // import Home from './Components/Home';
 import Topbar from "./Components/Topbar";
 import Navbar from "./Components/Navbar";
@@ -12,7 +12,7 @@ import AwardSection from "./Components/AwardSection";
 import UpComingEvent from "./Components/UpComingEvent";
 import FooterSection from "./Components/FooterSection";
 import Artical from "./Components/Artical";
-import ContactUs from "./Components/ContactUs";
+//import ContactUs from "./Components/ContactUs";
 
 function App() {
   return (

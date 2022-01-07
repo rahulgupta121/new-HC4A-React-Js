@@ -71,14 +71,14 @@ const UpComingEvent = () => {
                               class="fa fa-calendar calender-logo list-inline-item"
                               aria-hidden="true"
                             ></i>{" "}
-                            Add
+                            <span className="event-add-btn"> Add</span>
                           </li>
                           <li className="li-content-para-3">
                             <i
                               class="fa fa-map-marker location-logo list-inline-item"
                               aria-hidden="true"
                             ></i>
-                            Location
+                            <span className="event-location-btn"> Location </span>
                           </li>
                         </ul>
                       </div>
@@ -132,14 +132,14 @@ const UpComingEvent = () => {
                                   class="fa fa-calendar calender-logo li-calender list-inline-item"
                                   aria-hidden="true"
                                 ></i>{" "}
-                                Add
+                               <span className="event-add-btn"> Add</span> 
                               </li>
                               <li className="li-content-para-3">
                                 <i
                                   class="fa fa-map-marker location-logo li-location list-inline-item"
                                   aria-hidden="true"
                                 ></i>
-                                Location
+                                <span className="event-location-btn">Location </span> 
                               </li>
                             </ul>
                           </div>
@@ -193,15 +193,15 @@ const UpComingEvent = () => {
                                 <i
                                   class="fa fa-calendar calender-logo list-inline-item"
                                   aria-hidden="true"
-                                ></i>{" "}
-                                Add
+                                > </i>{" "}
+                               <spam className="event-add-btn"> Add </spam>
                               </li>
                               <li className="li-content-para-3">
                                 <i
                                   class="fa fa-map-marker location-logo list-inline-item"
                                   aria-hidden="true"
                                 ></i>
-                                Location
+                                <span className="event-location-btn">Location </span> 
                               </li>
                             </ul>
                           </div>
