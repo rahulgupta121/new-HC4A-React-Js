@@ -18,18 +18,7 @@
 .rounded-circle {
     background: #971723;
 }
-
-
-/* .social-icon img{
- background: #ffffff;
-
-}
-.social-icon li{
-  background: #ffffff;
-  height: 23px;
-  width: 23px;
-} */
-
+ 
 .navbar-bg {
     background-color: #ffffff;
 }
@@ -41,11 +30,6 @@
 .nav-link {
     font-weight: bold;
 }
-
-
-/* .navbar-1{
-  padding-left: ;
-} */
 
 .social-icon {
     height: 45px;
@@ -107,7 +91,18 @@ div .HC4A-logo {
 .navbar-ul-list {
     max-height: 100px;
 }
-
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 500;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0; 
+}
 
 /* ------------------------------ banner section -------------------- */
 
@@ -1375,6 +1370,18 @@ hr {
         max-width: 94%;
     }
 }
+@media (max-width: 425px){
+    /*### for 425px ###*/
+    .div .service-learn {
+    text-align: center;
+    position: absolute;
+    width: 136px;
+    top: 11px;
+    right: 7px;
+    min-width: 401px;
+    z-index: 1;
+    }
+}
 
 
 /*#### for screen 414px ####*/
@@ -1397,6 +1404,7 @@ hr {
     .HC4A-logo{
         display: none;
     }
+    
     /*####  banner section   ####*/
     h2.service-heading {
         font-size: 18px;
@@ -1499,6 +1507,7 @@ hr {
         font-size: 18px;
     }
 }
+
 /*#### for screen 375px ####*/
 @media (max-width: 375px){
     /*  for nav bar  */
@@ -1521,7 +1530,7 @@ hr {
         width: 136px;
         top: 11px;
         right: 7px;
-        min-width: 355px;
+        min-width: 351px;
         z-index: 1;
     }
     .background-banner {
@@ -1535,5 +1544,28 @@ hr {
     .about-content-sub-1 {
         padding: 16px;
         margin: 415px 12px 12px 116px;
+    }
+    .hc4a-logo-md-div {
+        display: block;
+        margin: 0px 259px 0px 0px;
+        position: absolute;
+        top: -16px;
+    }
+}
+/*  ### for 390px ###*/
+@media (max-width: 360px){
+    div .service-learn {
+        text-align: center;
+        position: absolute;
+        width: 136px;
+        top: 11px;
+        right: 7px;
+        min-width: 379px;
+        z-index: 1;
+    }
+    .hc4a-logo-md-div {
+        display: block;
+        margin: 0px 242px 0px 0px;
+        position: absolute; 
     }
 }

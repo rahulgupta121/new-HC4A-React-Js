@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 const UpComingEvent = () => {
   return (
     <>
@@ -6,23 +6,23 @@ const UpComingEvent = () => {
         <div className="container">
           <div className="row ">
             <div className="col-sm-12 col-md-4 col-lg-4 mt-5">
-            <div className="justify-content-center">
-              <h5 className="text-white text-uppercase">
-                Up Coming Events Workshops, Roundtables, And Webinars
-              </h5>
-              <p className="text-white">
-                A much mammoth because sedulously that in more regarding
-                coaxingly wallaby more ouch fluently saw rabbit talkatively tore
-                less like about despite..
-              </p>
-              <div className="text-center up-coming-event-btn-div">
-                <button
-                  type="button"
-                  className="btn btn-primary up-coming-event-btn"
-                >
-                  VIEW ALL EVENT
-                </button>
-              </div>
+              <div className="justify-content-center">
+                <h5 className="text-white text-uppercase">
+                  Up Coming Events Workshops, Roundtables, And Webinars
+                </h5>
+                <p className="text-white">
+                  A much mammoth because sedulously that in more regarding
+                  coaxingly wallaby more ouch fluently saw rabbit talkatively
+                  tore less like about despite..
+                </p>
+                <div className="text-center up-coming-event-btn-div">
+                  <button
+                    type="button"
+                    className="btn btn-primary up-coming-event-btn"
+                  >
+                    VIEW ALL EVENT
+                  </button>
+                </div>
               </div>
             </div>
 
