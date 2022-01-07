@@ -4,12 +4,14 @@ const Navbar = () => {
     return (
         <>
         <div className="container d-flex navbar-button-div justify-content-center position-relative">
+          <div className='hc4a-logo-md-div' href='/'><img className="HC4A-logo-md" src={hc4alogo} alt=''/></div>
     <nav className="navbar navbar-expand-lg navbar-button navbar-light bg-white">
       
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
+      
       <div className="collapse navbar-main-div navbar-collapse" id="navbarScroll">
         <ul className="navbar-nav navbar-ul-list mr-auto my-2 my-lg-0 navbar-nav-scroll" style={{alignItems: "center" }}>
           <li className="home nav-item active navbar-li-list">

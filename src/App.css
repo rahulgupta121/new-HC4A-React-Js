@@ -95,7 +95,9 @@ div .HC4A-logo {
     top: -25px;
     left: 10px;
 }
-
+.hc4alogo-md{
+    display: none;
+}
 .navbar-donate-btn {
     background: #971723;
 }
@@ -984,12 +986,18 @@ hr {
     .navbar-main-div{
         margin: 0px 212px;
     }
-
-    div .HC4A-logo {
-        top: 0px;
-        left: 1px;
-        height: 60px;
-        width: 60px;
+    .hc4a-logo-md-div {
+        display: block;
+        margin: 0px 584px 0px 0px;
+        position: absolute;
+        top: -19px;
+    }
+    .HC4A-logo-md{
+        height: 70px;
+        width: 70px;
+    }
+    .HC4A-logo{
+        display: none;
     }
     /* for banner section*/
     h2.service-heading {
