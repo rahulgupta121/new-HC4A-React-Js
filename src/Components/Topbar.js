@@ -15,15 +15,15 @@ const Topbar = () => {
 
             <div className="col-lg-4 col-md-4 col-sm-4 ">
               <div className="d-flex telephone justify-content-center">
-                <div className="pr-2  d-flex align-items-center">
+                <div className="pr-2 mt-2 d-flex align-items-center">
                 <i class="fas fa-phone"></i>
-                  <h6> +125 445-485-5242</h6>
+                  <h6 className="phone-no"> +125 445-485-5242</h6>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-4 col-sm-4 d-flex pl-0">
-              <div className="d-flex align-items-center justify-content-end">
+            <div className="col-for-social-link-div col-lg-4 col-md-4 col-sm-4 d-flex pl-0">
+              <div className="col-for-social-link d-flex align-items-center justify-content-end">
                 <ul className="social list-unstyled d-flex text-center ">
                   <li className="social-icon rounded-circle ">
                     <a href="/">

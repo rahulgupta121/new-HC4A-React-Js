@@ -87,7 +87,9 @@
 .menu-bar {
     text-align: center;
 }
-
+.col-for-social-link{
+    margin: 0px 0px 0px 177px;
+}
 
 /* ------------------- nav bar ------------------------------*/
 
@@ -95,7 +97,7 @@ div .HC4A-logo {
     top: -25px;
     left: 10px;
 }
-.hc4alogo-md{
+.hc4a-logo-md-div{
     display: none;
 }
 .navbar-donate-btn {
@@ -799,7 +801,7 @@ hr {
     margin: 13px 0px;
 }
 
-.address-hc4a,
+.address-hc4a, .telephone-hc4a,
 .mail-hc4a {
     font-weight: 600;
     opacity: 0.6;
@@ -973,6 +975,10 @@ hr {
 /* for laptop design 768px*/
 
 @media (max-width: 768px) {
+    /* ### top bar ### */
+    .col-for-social-link {
+        margin: 0px 0px 0px 0px;
+    }
     /* ### for nav bar ###*/
     .navbar-button-div {
         justify-content: end !important;
@@ -1199,6 +1205,23 @@ hr {
 /*##### for 576px #####*/
 
 @media (max-width: 576px) {
+    /*#### top nav bar ####*/
+    .phone-no{
+        font-size: 13px;
+    }
+    .became-volunteer {
+        font-size: 16px;
+    }
+    .social-icon {
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5px;
+        /* margin-left: 5px; */
+    }
     /*#### nav bar #### */
     .navbar-ul-list {
         max-height: 100%;
@@ -1206,12 +1229,16 @@ hr {
     .navbar-main-div{
         margin: 0px 60px;
     }
-    div .HC4A-logo {
-        top: 0px;
-        left: 1px;
-        height: 60px;
-        width: 60px;
+    .hc4a-logo-md-div {
+        display: block;
+        margin: 0px 429px 0px 0px;
+        position: absolute;
+        top: -19px;
     }
+    .HC4A-logo-md{
+        height: 70px;
+        width: 70px;
+    } 
     /*  for top bar  */
     .telephone {
         justify-content: flex-start !important;
@@ -1352,6 +1379,24 @@ hr {
 
 /*#### for screen 414px ####*/
 @media (max-width: 414px){
+    /*### top bar  ###*/
+    .col-for-social-link-div{
+        padding: 5px 0px;
+    }
+    /*### for nav bar ###*/
+    .hc4a-logo-md-div {
+        display: block;
+        margin: 0px 295px 0px 0px;
+        position: absolute;
+        top: -16px;
+    }
+    .HC4A-logo-md{
+        height: 70px;
+        width: 70px;
+    }
+    .HC4A-logo{
+        display: none;
+    }
     /*####  banner section   ####*/
     h2.service-heading {
         font-size: 18px;
@@ -1366,7 +1411,7 @@ hr {
     }
     .background-banner {
         width: 100%;
-        height: 50%;
+        height: 110%;
     }
     div .service-learn {
         text-align: center;
@@ -1383,9 +1428,9 @@ hr {
         padding: 52px 12px 33px 133px;
     }
     .about-content-sub-1 {
-        padding: 16px;
-        margin: 330px 12px 12px 116px;
-    }
+    padding: 16px;
+    margin: 553px 12px 12px 116px;
+}
     .about-content-sub-2-1 {
         border-bottom: 1px solid #971723;
         padding: 0px 12px 13px 133px;
@@ -1418,6 +1463,40 @@ hr {
     }
     .col-upcoming-event{
         margin: 0px 11px;
+    }
+    /*### new artical ###*/
+    .row1Img2:before {
+        content: "";
+        position: absolute;
+        left: 14px;
+        top: 0;
+        background: rgba(40, 40, 40, 0.4);
+        width: 93%;
+        height: 100%;
+        border-radius: 19px;
+    }
+    .row2Img3:before {
+        content: "";
+        /* position: absolute; */
+        left: 13px;
+        top: 17px;
+        background: rgba(37, 63, 127, 0.53);
+        width: 93%;
+        height: 82%;
+        border-radius: 19px;
+    }
+    .row3Img1:before {
+        content: "";
+        position: absolute;
+        left: 14px;
+        top: 0;
+        background: rgba(40, 40, 40, 0.4);
+        width: 86%;
+        height: 100%;
+        border-radius: 19px;
+    }
+    .became-volunteer-para {
+        font-size: 18px;
     }
 }
 /*#### for screen 375px ####*/
