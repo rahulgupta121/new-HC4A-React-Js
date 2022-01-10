@@ -15,10 +15,10 @@ const FooterSection = () => {
                         <div className='col-sm-6 col-mg-4 col-lg-4'>
                             <ul className='list-unstyled'>
                                 <li><img src={hc4alogo} alt='/' /></li>
-                                <li className='hc4a-list'><MdLocationOn /> <span className='address-hc4a text-center'>Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522</span></li>
+                                <li className='hc4a-list mt-5'><MdLocationOn className='location-logo-1'/> <span className='address-hc4a '>Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522</span></li>
                                 <li className='hc4a-list'><i class="fa fa-phone" aria-hidden="true"></i><span className='telephone-hc4a'>+44(0) 0000000000</span></li>
                                 <li className='hc4a-list'> <i class="fa fa-envelope" aria-hidden="true"></i>
-                                           <span className='mail-hc4a'>abc@gmail.com</span> </li>
+                                <span className='mail-hc4a'>abc@gmail.com</span> </li>
                             </ul>
                         </div>
                         <div className='col-sm-6 col-mg-4 col-lg-4'>
@@ -39,7 +39,7 @@ const FooterSection = () => {
                         <div className='row'>
                             <div className='col-sm-12 col-mg-12 col-lg-12'>
                                 <h3 className='recent-head'>RECENT POSTS</h3>  
-                                <hr className='footer-hr'/> 
+                                <hr className='footer-hr footer-hr-2'/> 
                                 <div className='row pb-2'>
                                     <div className='footer-content-1 col-sm-3 col-mg-3 col-lg-3'>
                                      

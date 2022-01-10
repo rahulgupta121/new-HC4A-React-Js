@@ -136,7 +136,7 @@ div .service-learn {
 }
 
 h2.service-heading {
-    font-size: 42px;
+    font-size: 38px;
 }
 
 .nav-item {
@@ -748,6 +748,9 @@ h2.service-heading {
 .footer-hr {
     border-color: #971723;
 }
+.footer-hr-2 {
+    margin-left: -15px;
+}
 
 hr {
     border: 0;
@@ -786,13 +789,26 @@ hr {
     margin: 13px 0px;
 }
 
-.address-hc4a, .telephone-hc4a,
+.telephone-hc4a,
 .mail-hc4a {
     font-weight: 600;
     opacity: 0.6;
     padding-left: 16px;
 }
 
+/* .address-hc4a{
+    direction: rtl;
+} */
+.address-hc4a {
+    font-weight: 600;
+    opacity: 0.6;
+    display: flex;
+    padding-left: 34px;
+    margin-top: -32px;
+}
+.location-logo-1{
+    font-size: 22px;
+}
 .footer-end {
     background: #343a40;
 }
@@ -806,48 +822,34 @@ hr {
 /*### For Responsive design ###*/
 
 
-/* ### 1920px ### */
+/* ### 1920px ### 
 @media (max-width: 1920px){
     div .service-learn {
         text-align: center;
         position: absolute;
         width: 136px;
-        top: 115px;
+        top: 54px;
         /* bottom: 120px; */
-        /* left: 0px; */
+        /* left: 0px;  
         right: 7px;
         min-width: 100%;
         z-index: 1;
-        /* padding: 0px 55px; */
-        font-size: 27px;
-    }
-
-    div .service-learn {
-        text-align: center;
-        position: absolute;
-        width: 136px;
-        top: 145px;
-        /* bottom: 120px; */
-        /* left: 0px; */
-        right: 7px;
-        min-width: 100%;
-        z-index: 1;
-        /* padding: 0px 55px; */
-        font-size: 27px;
+        /* padding: 0px 55px;  
+        font-size: 24px;
     }
     .banner-register-btn {
         background: #971723;
         border: none;
         border-radius: 20px;
-        padding: 19px 75px;
-        font-size: 25px;
+        padding: 19px 56px;
+        font-size: 21px;
     }
     .banner-donate-btn {
         background: #f2a922;
         border: none;
         border-radius: 20px;
-        padding: 19px 75px;
-        font-size: 25px;
+        padding: 19px 56px;
+        font-size: 21px;
     }
     .banner-sub-1-sec-heading, .banner-sub-2-sec-heading, .banner-sub-3-sec-heading {
         color: #ffffff;
@@ -870,7 +872,7 @@ hr {
     }
 }
 
-/* #$#$# 1024 px #$#$# */
+ #$#$# 1024 px #$#$# */
 
 @media (max-width: 1024px) {
     /*### Top Nav bar ###*/
@@ -1521,7 +1523,7 @@ hr {
     .li-content-para-3 {
         font-size: 14px;
         display: inline-grid;
-        padding: 6px;
+        padding: 0px;
     }
     .col-upcoming-event{
         margin: 0px 11px;
