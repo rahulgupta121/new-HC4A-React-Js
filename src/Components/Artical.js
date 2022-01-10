@@ -56,7 +56,7 @@ const Artical = () => {
                     <p className="row2para1">
                       {" "}
                       On August 7th, at the Houston Community College Foundation
-                      Board of Trustees meeting, HC4A Houston was recognized f
+                      Board of Trustees meeting, HC4A Houston was recognized.
                     </p>
                   </div>
                 </div>

@@ -42,14 +42,14 @@ const UpComingEvent = () => {
                       <ul className="ul-li-content-para-2 list-inline list-unstyled">
                         <li className="li-content-para-2">
                           <i
-                            class="fa fa-clock list-inline-item"
+                            class="fa fa-clock list-inline-item clock-logo"
                             aria-hidden="true"
                           ></i>
                           <span className="clock-text"> 06:00-05:30</span>
                         </li>
                         <li className="li-content-para-2">
                           <i
-                            class="fa fa-globe list-inline-item"
+                            class="fa fa-globe list-inline-item globe-logo"
                             aria-hidden="true"
                           ></i>
                           <span className="location-text">
@@ -102,14 +102,14 @@ const UpComingEvent = () => {
                           <ul className="ul-li-content-para-2 list-inline list-unstyled">
                             <li className="li-content-para-2">
                               <i
-                                class="fa fa-clock list-inline-item"
+                                class="fa fa-clock list-inline-item clock-logo"
                                 aria-hidden="true"
                               ></i>
                               <span className="clock-text">06:00-05:30</span>{" "}
                             </li>
                             <li className="li-content-para-2">
                               <i
-                                class="fa fa-globe list-inline-item"
+                                class="fa fa-globe list-inline-item globe-logo"
                                 aria-hidden="true"
                               ></i>
                               <span className="location-text">
@@ -165,14 +165,14 @@ const UpComingEvent = () => {
                           <ul className="ul-li-content-para-2 list-inline list-unstyled">
                             <li className="li-content-para-2">
                               <i
-                                class="fa fa-clock list-inline-item"
+                                class="fa fa-clock list-inline-item clock-logo"
                                 aria-hidden="true"
                               ></i>
                               <span className="clock-text">06:00-05:30</span>
                             </li>
                             <li className="li-content-para-2">
                               <i
-                                class="fa fa-globe list-inline-item"
+                                class="fa fa-globe list-inline-item globe-logo"
                                 aria-hidden="true"
                               ></i>
                               <span className="location-text">
