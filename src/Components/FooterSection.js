@@ -5,6 +5,7 @@ import { MdDoubleArrow, MdLocationOn } from 'react-icons/md';
 import footerimg1 from '../logos/footerimg1.png'
 import footerimg2 from '../logos/footerimg2.png'
 import footerimg3 from '../logos/footerimg3.png'
+
 const FooterSection = () => {
     return (
         <>

@@ -74,7 +74,20 @@
 .col-for-social-link{
     margin: 0px 0px 0px 177px;
 }
-
+/* for sticky nav bar */
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+     
+    z-index: 8;
+    padding: 9px 0px;
+}
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
 /* ------------------- nav bar ------------------------------*/
 
 div .HC4A-logo {
@@ -1464,7 +1477,6 @@ hr {
         margin: 0px 16px;
     }
 }
-
 
 /*#### for screen 414px ####*/
 @media (max-width: 414px){
