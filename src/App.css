@@ -9,7 +9,6 @@
     background-size: cover;
     padding-top: 16px;
     padding-bottom: 16px;
-    z-index: 4;
 }
 
 .bg-light {
@@ -75,27 +74,43 @@
 .col-for-social-link{
     margin: 0px 0px 0px 177px;
 }
-/* for sticky nav bar */
-
 
 /* ------------------- nav bar ------------------------------*/
-.sticky1 {
-    position: sticky;
+.sticky {
+    position: fixed !important;
     top: 0;
-    width: 100%;
-    z-index: 10;
-    padding: 9px 0px;
+    width: 100%; 
+    z-index: 999 !important;
+    display: flex;
+    background: white;
+    background-size: cover;  
 }
-  
-  .sticky1 + .content {
-    padding-top: 60px;
+
+div.sticky .navbar-button-div .HC4A-logo {
+    height: 70px;
+    width: 74px;
+    top: 0px;
+    padding: 4px 0px 7px 0px;
+    margin-left: -5px;
+}
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    height: 60px;
+    line-height: 20px;
+    background-color: #20716a;
+    font-size: 40px;
+    color: #ffd36b;
+    font-family: "Patrick Hand", cursive;
   }
   
 div .HC4A-logo {
     top: -25px;
     left: 10px;
 }
-.hc4a-logo-md-div{
+div .hc4a-logo-md-div{
     display: none;
 }
 .navbar-donate-btn {
@@ -912,6 +927,9 @@ hr {
         height: 78px;
         width: 78px;
     }
+    .hc4a-logo-md-div{
+        display: none;
+    }
     /* for banner section */
     div .service-learn {
         text-align: center;
@@ -1478,6 +1496,7 @@ hr {
         margin: 0px 16px;
     }
 }
+
 
 /*#### for screen 414px ####*/
 @media (max-width: 414px){

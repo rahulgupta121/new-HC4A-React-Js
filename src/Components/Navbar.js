@@ -1,8 +1,36 @@
 import React from 'react'
 import hc4alogo from "../logos/HC4A-logo.png"
+import {useEffect, useState} from "react"
 // import { Link } from 'react-router-dom';
+//import $ from 'jquery'
 const Navbar = () => {
  
+  const fixedText = document.getElementsByClassName("Mynavbar");
+  const whenNotFixed = "I am not a fixed header :(";
+  const [headerText, setHeaderText] = useState(whenNotFixed);
+  useEffect(() => {
+   // console.log("i am use effect")
+    const header = document.getElementById("Mynavbar");
+    const sticky = header.offsetTop;
+    const scrollCallBack = window.addEventListener("scroll", () => {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        if (headerText !== fixedText) {
+          setHeaderText(fixedText);
+        }
+      } else {
+        header.classList.remove("sticky");
+        if (headerText !== whenNotFixed) {
+          setHeaderText(whenNotFixed);
+        }
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll", scrollCallBack);
+    };
+  }, );
+
+
    const imgclick=()=>{ 
       var x = document.getElementById("img-clicked");
       if (x.style.display === "none") {
@@ -14,9 +42,12 @@ const Navbar = () => {
 
     return (
         <>
-        <div className="container d-flex navbar-button-div justify-content-center position-relative">
+        {/* div.sticky .navbar-button-div .navbar-main .HC4A-logo*/ }
+        <div id='Mynavbar' className='Mynavbar'>
+        
+        <div  className=" container d-flex navbar-button-div justify-content-center position-relative">
         <div className='hc4a-logo-md-div' id='img-clicked' href='/'><img className="HC4A-logo-md" src={hc4alogo} alt=''/></div>
-        <nav className="navbar navbar-expand-lg navbar-button navbar-light bg-white">
+        <nav className="navbar-main navbar-expand-lg navbar-button navbar-light bg-white">
       
       <button className="navbar-toggler" onClick={imgclick} type="button" data-toggle="collapse" data-target="#navbarScroll"
         aria-controls="navbarScroll" aria-expanded="true" aria-label="Toggle navigation">
@@ -111,11 +142,11 @@ const Navbar = () => {
       </div>
     </nav>
   </div> 
-
+  </div>
         </>
     )
     
 }
  
-
+{/*navbar-main  div#Mynavbar >.navbar-main-div > ul > .HC4A-logo*/}
 export default Navbar
