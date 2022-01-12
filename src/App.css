@@ -139,6 +139,9 @@ div .hc4a-logo-md-div{
     background-color: transparent;
     border: 0; 
 }
+.active_class{
+    font-weight: 900;
+}
 
 /* ------------------------------ banner section -------------------- */
 

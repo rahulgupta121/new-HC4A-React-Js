@@ -1,7 +1,14 @@
 import React from 'react'
 import hc4alogo from "../logos/HC4A-logo.png"
 import {useEffect, useState} from "react"
-// import { Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,Switch,
+  NavLink
+} from "react-router-dom"; 
+import ContactUs from './NavbarPages/ContactUs';
+import Donate from './NavbarPages/Donate';
+
 //import $ from 'jquery'
 const Navbar = () => {
  
@@ -42,6 +49,8 @@ const Navbar = () => {
 
     return (
         <>
+        <Router>
+        
         {/* div#Mynavbar .navbar-button-div .hc4a-logo-md-div .navbar-main .navbar-main-div ul*/ }
         <div id='Mynavbar' className='Mynavbar'>
         
@@ -133,16 +142,28 @@ const Navbar = () => {
             </ul>
           </li>
           <li className="nav-item active navbar-li-list">
-            <a className="contact-us nav-link" href="#/">CONTACTS US <span className="sr-only">(current)</span></a>
+            <NavLink activeClassName='active_class' to="/contactus" className="contact-us nav-link" href="#/">CONTACTS US <span className="sr-only">(current)</span></NavLink>
           </li>
           <div className="navbar-donate-div ">
-            <button type="button" className="btn btn-danger navbar-donate-btn"> DONATE </button>
+            <NavLink to="/donate"><button type="button" className="btn btn-danger navbar-donate-btn"> DONATE </button></NavLink>
           </div>
         </ul>
       </div>
     </nav>
   </div> 
   </div>
+  
+  <div>
+  <Switch>
+          <Route exact path="/ContactUs" component={'./NavbarPages/ContactUs.js'} pattern="/path1">
+            <ContactUs />
+          </Route> 
+          <Route exact path="/donate" component={'./NavbarPages/ContactUs.js'} pattern="/path1">
+            <Donate />
+          </Route> 
+        </Switch>
+  </div>
+  </Router>
         </>
     )
     
