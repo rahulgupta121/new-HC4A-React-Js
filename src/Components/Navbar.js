@@ -42,7 +42,7 @@ const Navbar = () => {
 
     return (
         <>
-        {/* div.sticky .navbar-button-div .navbar-main .HC4A-logo*/ }
+        {/* div#Mynavbar .navbar-button-div .hc4a-logo-md-div .navbar-main .navbar-main-div ul*/ }
         <div id='Mynavbar' className='Mynavbar'>
         
         <div  className=" container d-flex navbar-button-div justify-content-center position-relative">
@@ -147,6 +147,5 @@ const Navbar = () => {
     )
     
 }
- 
-{/*navbar-main  div#Mynavbar >.navbar-main-div > ul > .HC4A-logo*/}
+  
 export default Navbar

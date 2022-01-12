@@ -1,3 +1,9 @@
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
 /*  top nav bar CSS  */
 
 .top-navbar {
@@ -44,6 +50,7 @@
 
 .fa-icon {
     color: #ffffff;
+    font-size: 22px;
 }
 
 .social:last-child {
@@ -1069,15 +1076,26 @@ hr {
     }
     .navbar-button {
         justify-content: end !important;
+        text-align: end;
+        margin: 10px 0px;
     }
     .navbar-ul-list {
         max-height: 100%;
     }
+    div.sticky .navbar-button-div .HC4A-logo-md {
+        height: 62px;
+        width: 53px;
+        top: 0px;
+        padding: 4px 0px 7px 0px;
+        margin-left: 8px;
+        margin-top: 16px;
+    }
+
     .navbar-main-div{
         margin: 0px 212px;
     }
     .hc4a-logo-md-div {
-        display: block;
+        display: block ;
         margin: 0px 584px 0px 0px;
         position: absolute;
         top: -19px;
@@ -1152,6 +1170,7 @@ hr {
     .supportBanner2-content {
         padding: 20px;
     }
+    
     /*### donation section ###*/
     .content-part-2-heading {
         font-size: 18px;
@@ -1550,9 +1569,9 @@ hr {
         padding: 52px 12px 33px 133px;
     }
     .about-content-sub-1 {
-    padding: 16px;
-    margin: 553px 12px 12px 116px;
-}
+        padding: 16px;
+        margin: 360px 12px 12px 116px;
+    }
     .about-content-sub-2-1 {
         border-bottom: 1px solid #971723;
         padding: 0px 12px 13px 133px;
