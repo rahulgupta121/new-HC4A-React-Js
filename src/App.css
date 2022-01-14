@@ -1565,7 +1565,7 @@ hr {
   }
   .about-content-sub-1 {
     padding: 16px;
-    margin: 360px 12px 12px 116px;
+    margin: 394px 12px 12px 116px;
   }
   .about-content-sub-2-1 {
     border-bottom: 1px solid #971723;
@@ -1577,6 +1577,17 @@ hr {
   .about-sec-para-sub-1 {
     border-right: none;
   }
+  /* ### support the student ###*/
+  .support-1-content-1 {
+    top: -20px;
+    right: 0px;
+}
+.supportBanner1-2-div { 
+  left: 0px;
+} 
+.Support-stud-banner-div{
+  overflow: hidden;
+}
   /*###   donation section    ###*/
   .donation-section {
     background: #f1f1f1;
@@ -1602,6 +1613,10 @@ hr {
     margin: 0px 11px;
   }
   /*### new artical ###*/
+  .artical-mail-div {
+    width: 100%;
+    overflow: hidden;
+}
   .row1Img2:before {
     content: "";
     position: absolute;
