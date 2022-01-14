@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
       <div className="background-banner position-relative">
-        <img className="background-banner" alt="" src={bannerImg} />
+        <img className="background-banner " alt="" src={bannerImg} />
         <div className="container">
           <div className="service-learn">
             <h2 className="service-heading text-white">
