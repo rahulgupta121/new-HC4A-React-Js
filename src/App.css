@@ -60,28 +60,24 @@
 }
 
 .social {
-  margin-bottom: 0px;
+  margin: 0px 0px 0px 0px;
   padding-left: 2px;
   padding-right: 2px;
 }
-
 .became-volunteer {
   font-size: 18px;
 }
-
 .social li a img {
   height: 18px;
 }
-
 .social li a img {
   text-align: center;
 }
-
 .menu-bar {
   text-align: center;
 }
 .col-for-social-link {
-  margin: 0px 0px 0px 177px;
+  margin: 0px 0px 0px 121px;
 }
 
 /* ------------------- nav bar ------------------------------*/
@@ -930,7 +926,7 @@ hr {
     height: 78px;
     width: 78px;
   }
-  .hc4a-logo-md-div {
+  div .hc4a-logo-md-div {
     display: none;
   }
   /* for banner section */
@@ -1331,12 +1327,12 @@ hr {
   .navbar-main-div {
     margin: 0px 60px;
   }
-  .hc4a-logo-md-div {
-    display: block;
-    margin: 0px 429px 0px 0px;
+  div .hc4a-logo-md-div {
+    display: block !important;
+    margin: 0px 455px 0px 0px;
     position: absolute;
-    top: -19px;
-  }
+    top: -13px;
+}
   .HC4A-logo-md {
     height: 70px;
     width: 70px;
@@ -1524,7 +1520,7 @@ hr {
   }
   /*### for nav bar ###*/
   .hc4a-logo-md-div {
-    display: block;
+    display: block !important;
     margin: 0px 295px 0px 0px;
     position: absolute;
     top: -16px;
@@ -1684,7 +1680,7 @@ hr {
     margin: 415px 12px 12px 116px;
   }
   .hc4a-logo-md-div {
-    display: block;
+    display: block !important;
     margin: 0px 259px 0px 0px;
     position: absolute;
     top: -16px;
@@ -1706,8 +1702,8 @@ hr {
     min-width: 379px;
     z-index: 1;
   }
-  .hc4a-logo-md-div {
-    display: block;
+  div .hc4a-logo-md-div {
+    display: block !important;
     margin: 0px 242px 0px 0px;
     position: absolute;
   }
