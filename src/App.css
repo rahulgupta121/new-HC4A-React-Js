@@ -82,13 +82,13 @@
 
 /* ------------------- nav bar ------------------------------*/
 .sticky {
-  position: fixed !important;
+  position: sticky !important;
   top: 0;
   width: 100%;
   z-index: 999 !important;
   display: flex;
   background: white;
-  background-size: cover;
+  background-size: cover; 
 }
 
 div.sticky .navbar-button-div .HC4A-logo {
@@ -112,8 +112,10 @@ div.sticky .navbar-button-div .HC4A-logo {
 }
 
 div .HC4A-logo {
-  top: -25px;
+  top: -19px;
   left: 10px;
+  height: 100px;
+  width: 100px;
 }
 
 .navbar-donate-btn {
@@ -138,9 +140,16 @@ div .HC4A-logo {
 .active_class {
   font-weight: 900;
 }
-.Mynavbar{
-  
-}
+/* ul.dropdown-menu.nav-dropdown-border.show { 
+  position: absolute;
+  transform: translate3d(-157px, 37px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+  width: 57vh;
+  text-align: center;
+} */
+
 /* ------------------------------ banner section -------------------- */
 
 div .absolute {
@@ -1076,8 +1085,8 @@ hr {
   .navbar-button {
     justify-content: end !important;
     text-align: end;
-    margin: 10px 0px;
-  }
+    margin: 10px 13px;
+}
   .navbar-ul-list {
     max-height: 100%;
   }
@@ -1094,11 +1103,12 @@ hr {
     margin: 0px 212px;
   }
   .hc4a-logo-md-div {
-    display: block;
-    margin: 0px 584px 0px 0px;
+    display: block !important;
+    /* margin: 0px 4px 0px 0px; */
     position: absolute;
     top: -19px;
-  }
+    left: 17px;
+}
   .HC4A-logo-md {
     height: 70px;
     width: 70px;
@@ -1312,21 +1322,30 @@ hr {
 @media (max-width: 576px) {
   /*#### top nav bar ####*/
   .phone-no {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 600;
   }
   .became-volunteer {
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.social-icon {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+  margin-left: 4px;
+}
+  .col-for-social-link-div{
+    text-align: end;
   }
-  .social-icon {
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 5px;
-    /* margin-left: 5px; */
-  }
+  .fa-icon {
+    color: #ffffff;
+    font-size: 15px;
+}
   /*#### nav bar #### */
   .navbar-ul-list {
     max-height: 100%;
@@ -1347,7 +1366,8 @@ hr {
   /*  for top bar  */
   .telephone {
     justify-content: flex-start !important;
-  }
+    font-size: 15px;
+}
   /*  for banner section  */
   h2.service-heading {
     font-size: 20px;
@@ -1523,8 +1543,10 @@ hr {
 @media (max-width: 414px) {
   /*### top bar  ###*/
   .col-for-social-link-div {
-    padding: 5px 0px;
-  }
+    padding: 0px 0px 0px 0px;
+    flex-direction: row-reverse;
+    /* margin: 0px 0px 0px 0px; */
+}
   /*### for nav bar ###*/
   .hc4a-logo-md-div {
     display: block !important;
