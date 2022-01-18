@@ -54,7 +54,9 @@
   color: #ffffff;
   font-size: 22px;
 }
-
+.fa-icon:hover{
+  color: #fae94c;
+}
 .social:last-child {
   margin-right: 0px;
 }
@@ -149,6 +151,15 @@ div .HC4A-logo {
   width: 57vh;
   text-align: center;
 } */
+
+ul.dropdown-menu.show {
+  width: 50vh;
+  transform: translate3d(-137px, 37px, 0px) !important;
+}
+    /*  */
+ul.dropdown-menu.show .grow-the-moment{
+  margin-left: 44px;
+}
 
 /* ------------------------------ banner section -------------------- */
 

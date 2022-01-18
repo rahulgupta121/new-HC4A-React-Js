@@ -34,7 +34,7 @@ const Navbar = () => {
     });
     return () => {
       window.removeEventListener("scroll", scrollCallBack);
-    };
+    };        
   });
 
   const imgclick = () => {
@@ -167,7 +167,7 @@ const Navbar = () => {
                       GROW THE MOVEMENTS
                     </a>
                     <ul
-                      className="dropdown-menu"
+                      className="dropdown-menu grow-the-moment"
                       aria-labelledby="navbarScrollingDropdown"
                     >
                       <li>
@@ -207,12 +207,7 @@ const Navbar = () => {
                     <ul
                       className="dropdown-menu"
                       aria-labelledby="navbarScrollingDropdown"
-                    >
-                      <li>
-                        <a className="dropdown-item" href="#/">
-                          Action
-                        </a>
-                      </li>
+                    > 
                       <li>
                         <a className="dropdown-item" href="#/">
                           Another action
@@ -242,23 +237,10 @@ const Navbar = () => {
                     <ul
                       className="dropdown-menu"
                       aria-labelledby="navbarScrollingDropdown"
-                    >
+                    > 
                       <li>
                         <a className="dropdown-item" href="#/">
-                          Action
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#/">
-                          Another action
-                        </a>
-                      </li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#/">
-                          Something else here
+                         About Story 
                         </a>
                       </li>
                     </ul>
