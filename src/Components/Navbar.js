@@ -8,7 +8,7 @@ import {
   NavLink,
 } from "react-router-dom";
 import ContactUs from "./NavbarPages/ContactUs";
-import Donate from "./NavbarPages/Donate";
+import Donate from "./NavbarPages/Donate"; 
 
 //import $ from 'jquery'
 const Navbar = () => {
