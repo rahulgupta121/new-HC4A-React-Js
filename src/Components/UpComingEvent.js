@@ -26,7 +26,7 @@ const UpComingEvent = () => {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-8 col-lg-8 mt-5">
+            <div className="col-sm-12 col-md-8 col-lg-8 mt-5 mb-4">
               <div className="row">
                 <div className="col-upcoming-event col-sm-12 col-md-12 col-lg-12 mb-3">
                   <div className="row upcoming-event-content-2">

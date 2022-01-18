@@ -1,6 +1,6 @@
 import React from "react";
 import hc4alogo from "../logos/HC4A-logo.png";
-//import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -12,30 +12,30 @@ import Donate from "./NavbarPages/Donate";
 
 //import $ from 'jquery'
 const Navbar = () => {
-  // const fixedText = document.getElementsByClassName("Mynavbar");
-  // const whenNotFixed = "I am not a fixed header :(";
-  // const [headerText, setHeaderText] = useState(whenNotFixed);
-  // useEffect(() => {
-  //   // console.log("i am use effect")
-  //   const header = document.getElementById("Mynavbar");
-  //   const sticky = header.offsetTop;
-  //   const scrollCallBack = window.addEventListener("scroll", () => {
-  //     if (window.pageYOffset > sticky) {
-  //       header.classList.add("sticky");
-  //       if (headerText !== fixedText) {
-  //         setHeaderText(fixedText);
-  //       }
-  //     } else {
-  //       header.classList.remove("sticky");
-  //       if (headerText !== whenNotFixed) {
-  //         setHeaderText(whenNotFixed);
-  //       }
-  //     }
-  //   });
-  //   return () => {
-  //     window.removeEventListener("scroll", scrollCallBack);
-  //   };
-  // });
+  const fixedText = document.getElementsByClassName("Mynavbar");
+  const whenNotFixed = "";
+  const [headerText, setHeaderText] = useState(whenNotFixed);
+  useEffect(() => {
+    // console.log("i am use effect")
+    const header = document.getElementById("Mynavbar");
+    const sticky = header.offsetTop;
+    const scrollCallBack = window.addEventListener("scroll", () => {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        if (headerText !== fixedText) {
+          setHeaderText(fixedText);
+        }
+      } else {
+        header.classList.remove("sticky");
+        if (headerText !== whenNotFixed) {
+          setHeaderText(whenNotFixed);
+        }
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll", scrollCallBack);
+    };
+  });
 
   const imgclick = () => {
     var x = document.getElementById("img-clicked");

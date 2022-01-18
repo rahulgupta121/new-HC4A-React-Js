@@ -37,7 +37,7 @@ const FooterSection = () => {
                             </ul>
                         </div>
                         <div className='col-sm-12 col-mg-4 col-lg-4'>
-                        <div className='row'>
+                        <div className='row pl-3'>
                             <div className='col-sm-12 col-mg-12 col-lg-12'>
                                 <h3 className='recent-head'>RECENT POSTS</h3>  
                                 <hr className='footer-hr footer-hr-2'/> 
