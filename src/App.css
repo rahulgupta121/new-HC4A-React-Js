@@ -115,9 +115,7 @@ div .HC4A-logo {
   top: -25px;
   left: 10px;
 }
-div .hc4a-logo-md-div {
-  display: none;
-}
+
 .navbar-donate-btn {
   background: #971723;
 }
@@ -900,8 +898,15 @@ hr {
         font-size: 20px;
     }
 }
+*/
 
- #$#$# 1024 px #$#$# */
+/* min width 991 for navbar */
+@media (min-width: 991px){
+  div #img-clicked {
+    display: none;
+  }
+}
+ /*#$#$# 1024 px #$#$# */
 
 @media (max-width: 1024px) {
   /*### Top Nav bar ###*/
@@ -926,7 +931,7 @@ hr {
     height: 78px;
     width: 78px;
   }
-  div .hc4a-logo-md-div {
+  div #img-clicked {
     display: none;
   }
   /* for banner section */
@@ -1329,7 +1334,7 @@ hr {
   }
   div .hc4a-logo-md-div {
     display: block !important;
-    margin: 0px 455px 0px 0px;
+   
     position: absolute;
     top: -13px;
 }

@@ -42,7 +42,7 @@ const Navbar = () => {
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
-      x.style.display = "none";
+      x.style.display = "none !important";
     }
   };
 
@@ -52,9 +52,11 @@ const Navbar = () => {
         {/* div#Mynavbar .navbar-button-div .hc4a-logo-md-div .navbar-main .navbar-main-div ul*/}
         <div id="Mynavbar" className="Mynavbar">
           <div className=" container d-flex navbar-button-div justify-content-center position-relative">
+
             <div className="hc4a-logo-md-div" id="img-clicked" href="/">
               <img className="HC4A-logo-md" src={hc4alogo} alt="" />
             </div>
+
             <nav className="navbar-main navbar-expand-lg navbar-button navbar-light bg-white">
               <button
                 className="navbar-toggler"
