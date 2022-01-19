@@ -100,7 +100,7 @@ const SupportStudent = () => {
               </div>
             </div>
             <div className="support-1-content-2 supportBanner1-2-div col-sm-12 col-md-5 col-lg-4">
-              <div className="supportBanner1-2">
+              <div className="supportBanner1-2 tex">
                 <img
                   className="supportBanner1 rounded-circle"
                   alt=""

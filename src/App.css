@@ -359,7 +359,9 @@ h2.service-heading {
   font-size: 20px;
   margin-bottom: auto;
 }
-
+.supportBanner1-2{
+  margin: 0px 0px;
+}
 /* donation content-part-1 */
 
 .donation-section {
