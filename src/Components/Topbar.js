@@ -5,15 +5,15 @@ const Topbar = () => {
     <>
     
       <div className="top-navbar navbar d-flex flex-wrap">
-        <div className="container">
+        <div className="container top-navbar-div">
           <div className="row justify-content-between w-100">
             {/* <!------- d-flex justify-content-around --> */}
 
-            <div className="col-lg-4 col-md-4 col-sm-4 d-flex">
+            <div className="col-lg-4 col-md-4 col-sm-4 d-flex became-volunteer-main-div">
               <a className="navbar-brand became-volunteer text-white" href="/" > Became a volunteer</a> 
             </div>
 
-            <div className="col-lg-4 col-md-4 col-sm-4 ">
+            <div className="col-lg-4 col-md-4 col-sm-4 telephone-main-div">
               <div className="d-flex telephone justify-content-center">
                 <div className="pr-2 mt-2 d-flex align-items-center">
                 <i class="fas fa-phone"></i>

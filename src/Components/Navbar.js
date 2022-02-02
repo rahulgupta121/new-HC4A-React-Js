@@ -10,6 +10,7 @@ import {
 import ContactUs from "./NavbarPages/ContactUs";
 import Donate from "./NavbarPages/Donate"; 
 
+
 //import $ from 'jquery'
 const Navbar = () => {
   const fixedText = document.getElementsByClassName("Mynavbar");
@@ -67,7 +68,7 @@ const Navbar = () => {
                 aria-controls="navbarScroll"
                 aria-expanded="true"
                 aria-label="Toggle navigation"
-              >
+              > 
                 <span className="navbar-toggler-icon"></span>
               </button>
 
@@ -76,9 +77,7 @@ const Navbar = () => {
                 id="navbarScroll"
               >
                 <ul
-                  className="navbar-nav navbar-ul-list mr-auto my-2 my-lg-0 navbar-nav-scroll"
-                  style={{ alignItems: "center" }}
-                >
+                  className="navbar-nav navbar-ul-list mr-auto my-2 my-lg-0 navbar-nav-scroll">
                   <li className="home nav-item active navbar-li-list">
                     <a to="/contact" className="nav-link" href="#/contact">
                       {" "}

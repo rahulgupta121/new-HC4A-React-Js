@@ -1,11 +1,3 @@
-/* body {
-    overflow-x: hidden !important;
-}
-.container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-} */
-
 /*  top nav bar CSS  */
 
 .top-navbar {
@@ -81,10 +73,20 @@
 .col-for-social-link {
   margin: 0px 0px 0px 121px;
 }
-
+.became-volunteer-main-div{
+  padding-left: 0px;
+}
+.col-for-social-link-div{
+  left: 0;
+  right: 0;
+  justify-content: flex-end;
+}
+.top-navbar-div{
+  padding-right: 0px;
+}
 /* ------------------- nav bar ------------------------------*/
 .sticky {
-  position: sticky !important;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 999 !important;
@@ -95,10 +97,11 @@
 
 div.sticky .navbar-button-div .HC4A-logo {
   height: 70px;
-  width: 74px;
+  width: 70px;
   top: 0px;
   padding: 4px 0px 7px 0px;
-  margin-left: -5px;
+  margin-left: -9px;
+  margin-right: -4px;
 }
 .header {
   display: flex;
@@ -126,6 +129,7 @@ div .HC4A-logo {
 
 .navbar-ul-list {
   max-height: 100px;
+  align-items: center;
 }
 .dropdown-item {
   display: block;
@@ -197,9 +201,16 @@ h2.service-heading {
 }
 
 .nav-item {
-  font-size: 14px;
+  font-size: 15px;
+    padding: 0px 17px;
 }
-
+.nav-item:first-child { 
+  /* padding: 0px 17px; */
+  padding-left: 0px;
+}
+.contact-us{
+  text-align: center;
+}
 .register-btn-div {
   margin-top: 59px;
 }
@@ -945,6 +956,10 @@ hr {
     padding-top: 6px;
     padding-bottom: 6px;
   }
+  .nav-item {
+    font-size: 13px;
+    padding: 0px 11px;
+}
   /*  navbar  */
   .navbar-ul-list {
     max-height: 45px;
@@ -958,6 +973,14 @@ hr {
   div #img-clicked {
     display: none;
   }
+  div.sticky .navbar-button-div .HC4A-logo {
+    height: 55px;
+    width: 55px;
+    top: 0px;
+    padding: 4px 0px 12px 0px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
   /* for banner section */
   div .service-learn {
     text-align: center;
@@ -1341,6 +1364,7 @@ hr {
   .became-volunteer {
     font-size: 15px;
     font-weight: 600;
+    padding-left: 0px;
 }
 .social-icon {
   height: 30px;
