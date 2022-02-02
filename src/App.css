@@ -357,10 +357,12 @@ h2.service-heading {
   margin: 0px 0px;
 }
 
-.Support-stud-sec-1, .Support-stud-sec-2{
-  padding: 15px 0px;
+.Support-stud-sec-1{
+  padding: 60px 0px 35px 0px;
 }
-
+.Support-stud-sec-2{
+  padding: 35px 0px 60px 0px;
+}
 /* donation content-part-1 */
 
 .donation-section {
