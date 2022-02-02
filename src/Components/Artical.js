@@ -20,7 +20,7 @@ const Artical = () => {
                   <div className="for-box-shadow">
                     <img className="row1Img1" src={row1Img1} alt="" />
                     <div className="row1Content">
-                      <h6 className="row1head1 pt-4 pb-3">
+                      <h6 className="row1head1">
                         Houston Community College Scholarship Award
                       </h6>
                       <p className="row1para1">

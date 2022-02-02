@@ -9,7 +9,7 @@ const SupportStudent = () => {
   return (
     <>
       <div className="Support-stud-banner-div">
-        <div className="container pt-5 pb-5">
+        <div className="container Support-stud-sec-1">
           <div className="row">
             <div className="support-1-content-1 col-sm-12 col-md-5 col-lg-4">
               <div className="supportBanner1-div">
@@ -62,7 +62,7 @@ const SupportStudent = () => {
         </div>
         {/* support content 2 */}
 
-        <div className="container pt-5 pb-5">
+        <div className="container Support-stud-sec-2">
           <div className="row">
             <div className="col-sm-12 col-md-7 col-lg-8 supportBanner2-div supportBanner2-div-2">
               <div className="supportBanner2-content">
