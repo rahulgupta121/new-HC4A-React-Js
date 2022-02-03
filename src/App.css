@@ -546,6 +546,9 @@ h2.service-heading {
   height: 250px;
   max-width: 100%;
 }
+.row2div2{
+  padding: 0px;
+}
 
 .row2Img3 {
   background: url("./logos/new-artical-2-3.png");

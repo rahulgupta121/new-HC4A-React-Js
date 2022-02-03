@@ -60,11 +60,11 @@ const Artical = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-12 col-lg-12">
+                <div className="row2div2 col-sm-12 col-md-12 col-lg-12">
                   <div className="for-box-shadow mt-4">
                     <img className="row2Img2" src={row2Img2} alt="" />
                     <div className="row2Content">
-                      <h6 className="row2head2 pt-4 pb-3">
+                      <h6 className="row2head2">
                         Blood donation activities are held annually
                       </h6>
                       <p className="row2para2">
@@ -102,7 +102,7 @@ const Artical = () => {
                   <div className="for-box-shadow-3-2 mt-4">
                     <img className="row3Img2" src={row3Img2} alt="" />
                     <div className="row3Content">
-                      <h6 className="row3head2 pt-4 pb-3">
+                      <h6 className="row3head2">
                         Helping old people in difficult circumstances
                       </h6>
                       <p className="row3para2">
