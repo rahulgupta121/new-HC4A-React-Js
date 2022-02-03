@@ -13,8 +13,8 @@ const AwardSection = () => {
         <div className="container award-section">
           <h3 className="text-center award-head">AWARDS</h3>
           <div className="row mb-5">
-            <div className="award-main-card border border-dark col-sm-12 col-md-4 col-lg-4">
-              <div className="">
+            <div className=" col-sm-12 col-md-4 col-lg-4">
+              <div className="award-main-card border border-dark">
                 <div className="card-background card">
                   <div className="card-background-padding">
                     <img

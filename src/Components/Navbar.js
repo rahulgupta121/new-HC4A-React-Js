@@ -13,9 +13,9 @@ import Donate from "./NavbarPages/Donate";
 
 //import $ from 'jquery'
 const Navbar = () => {
-  const fixedText = document.getElementsByClassName("Mynavbar");
-  const whenNotFixed = "";
-  const [headerText, setHeaderText] = useState(whenNotFixed);
+  
+  const fixedText = document.getElementsByClassName("Mynavbar"); 
+  const [headerText, setHeaderText] = useState();
   useEffect(() => {
     // console.log("i am use effect")
     const header = document.getElementById("Mynavbar");
@@ -28,15 +28,14 @@ const Navbar = () => {
         }
       } else {
         header.classList.remove("sticky");
-        if (headerText !== whenNotFixed) {
-          setHeaderText(whenNotFixed);
-        }
       }
     });
     return () => {
       window.removeEventListener("scroll", scrollCallBack);
     };        
   });
+
+
 
   const imgclick = () => {
     var x = document.getElementById("img-clicked");

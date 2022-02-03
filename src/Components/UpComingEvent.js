@@ -5,8 +5,8 @@ const UpComingEvent = () => {
       <div className="upcoming-event-background">
         <div className="container">
           <div className="row ">
-            <div className="col-sm-12 col-md-4 col-lg-4 mt-5">
-              <div className="justify-content-center">
+            <div className="col-sm-12 col-md-4 col-lg-4 ">
+              <div className="upcomingHeading">
                 <h5 className="text-white text-uppercase">
                   Up Coming Events Workshops, Roundtables, And Webinars
                 </h5>

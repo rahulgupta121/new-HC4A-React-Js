@@ -450,6 +450,9 @@ h2.service-heading {
   margin-left: 0px;
   margin-right: 0px;
 }
+.content-part-3:last-child {
+  margin-right: 0px;
+}
 
 /*   section 4 for button   */
 
@@ -460,6 +463,9 @@ h2.service-heading {
 .donation-button {
   font-size: 22px;
   width: inherit;
+}
+.dollar-section-div{
+  text-align: end;
 }
 
 /*  ##  NEW ARTICAL SECTION  ##  */
@@ -789,7 +795,13 @@ h2.service-heading {
 .location-text {
   opacity: 0.6;
 }
-
+.upcomingHeading{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  /* padding: 50% 0% 50% 0%; */
+  flex-direction: column;
+}
 /*#### Footer section ####*/
 
 .footer-background {

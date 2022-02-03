@@ -49,7 +49,7 @@ const Donation = () => {
                     All donations are tax deductable.
                   </p>
                 </div>
-                <div className="col-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                <div className="col-4 col-sm-4 col-md-4 col-lg-4 dollar-section-div">
                   <div className=" dollar-section">
                    
                     <p className="dollar-sign text-white">$</p>
