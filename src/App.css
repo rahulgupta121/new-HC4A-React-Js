@@ -802,8 +802,8 @@ h2.service-heading {
   /* padding: 50% 0% 50% 0%; */
   flex-direction: column;
 }
-/*#### Footer section ####*/
 
+/*#### Footer section ####*/
 .footer-background {
   background: url("./logos/prm-world-map\ 2.png");
   background-position: center;
